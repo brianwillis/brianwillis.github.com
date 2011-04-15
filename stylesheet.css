@@ -1,0 +1,24 @@
+﻿body {
+    background-color:#3D3D3D;}
+
+h1 {
+    font-family:Helvetica, Verdana, Arial;
+    font-size:2.7em;
+    color:white;
+    margin-top:0em;
+    margin-bottom:0em;}
+
+p {
+    font-family:Helvetica, Verdana, Arial;
+    font-size:1em;
+    color:#E3E3E3;}
+
+a {
+    color:#E3E3E3;}
+
+#container {
+    position:relative;
+    top:100px;
+    width:700px;
+    margin-left:auto;
+    margin-right:auto;}
