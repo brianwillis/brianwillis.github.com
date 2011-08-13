@@ -1,26 +1,59 @@
-﻿body {
-    background-color: #1C1C1C;}
-
-h1 {
-    font-family: museo-slab, Helvetica, Verdana, Arial;
-    font-weight: 300;
-    font-size: 3em;
-    color: white;
-    margin-top: 0em;
-    margin-bottom: 0em;}
-
-p {
-    font-family: museo-sans, Helvetica, Verdana, Arial;
-    font-weight: 300;
-    font-size: 1em;
-    color: #E3E3E3;}
-
-a {
-    color: #E3E3E3;}
+body {
+    background-color: #1C1C1C;
+}
 
 #container {
     position: relative;
     top: 100px;
     width: 700px;
     margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+}
+
+#header {
+    position:relative;
+    height: 60px;
+}
+
+#sitename {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family: Museo-slab, Helvetica, Verdana, Arial;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+#menu {
+    position: absolute;
+    bottom: 7px;
+    right: 0;
+    font-family: Museo-slab, Helvetica, Verdana, Arial;
+    font-weight: 300;
+    font-size: 1.1em;
+    word-spacing: 10px;
+}
+
+h2 {
+    font-family: Museo-slab, Helvetica, Verdana, Arial;
+    font-weight: 300;
+    font-size: 1.8em;
+    color: #E3E3E3;
+}
+
+p {
+    font-family: Museo-sans, Helvetica, Verdana, Arial;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 175%;
+    color: #E3E3E3;
+}
+
+a {
+    color: #E3E3E3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
+}

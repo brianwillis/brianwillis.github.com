@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<!-- Found a problem? Send me an email: brian@brianwillis.com -->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/stylesheet.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="apple-touch-icon-iphone.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-iphone4.png" />
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-20557873-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+    <!-- TypeKit -->
+    <script type="text/javascript" src="http://use.typekit.com/uuo8wsn.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="sitename">
+                <a href="/">Brian Willis</a>
+            </div>
+            <div id="menu">
+                <a href="/archive.html" title="List of older posts">Archive</a>
+                <a href="#" title="Other places where you can find me">Elsewhere</a>
+                <a href="mailto:brian@brianwillis.com" title="Send me an email">Contact</a>
+            </div>
+        </div>
+{{ content }}
+    </div>
+</body>
+</html>
