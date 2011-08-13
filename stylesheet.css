@@ -15,6 +15,12 @@ body {
     height: 60px;
 }
 
+
+#footer {
+    position:relative;
+    height: 100px;
+}
+
 #sitename {
     position: absolute;
     bottom: 0;
