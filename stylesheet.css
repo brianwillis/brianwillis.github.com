@@ -9,7 +9,7 @@ body {
     margin-right: auto;
 }
 
-.spacer {
+#topspacer {
     position:relative;
     height: 100px;
 }
@@ -33,6 +33,15 @@ body {
     font-weight: 300;
     font-size: 1.1em;
     word-spacing: 10px;
+}
+
+.postcontent {
+    margin-bottom: 75px;
+}
+
+#bottomspacer {
+    position:relative;
+    height: 25px;
 }
 
 h1 {
