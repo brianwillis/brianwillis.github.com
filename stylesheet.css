@@ -4,20 +4,19 @@ body {
 
 #container {
     position: relative;
-    top: 100px;
     width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.spacer {
+    position:relative;
+    height: 100px;
+}
+
 #header {
     position:relative;
     height: 60px;
-}
-
-#footer {
-    position:relative;
-    height: 100px;
 }
 
 #sitename {
