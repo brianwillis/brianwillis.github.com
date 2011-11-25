@@ -9,14 +9,10 @@ body {
     margin-right: auto;
 }
 
-#topspacer {
-    position: relative;
-    height: 100px;
-}
-
 #header {
     position:relative;
     height: 60px;
+    padding-top: 100px;
 }
 
 #sitename {
@@ -41,11 +37,7 @@ body {
 
 #footer{
     position: relative;
-}
-
-#bottomspacer {
-    position:relative;
-    height: 25px;
+    padding-bottom: 25px;
 }
 
 h1 {
