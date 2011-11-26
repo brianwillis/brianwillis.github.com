@@ -65,11 +65,20 @@ p {
 }
 
 p a:link {
-    border-bottom: 1px dotted #E3E3E3
+    border-bottom: 1px dotted #E3E3E3;
 }
 
 p a:hover {
-    border-bottom: 1px dotted #FFFFFF
+    border-bottom: 1px dotted #FFFFFF;
+}
+
+a {
+    color: #E3E3E3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFFFFF;
 }
 
 .byline {
@@ -87,13 +96,4 @@ p a:hover {
     font-size: 0.75em;
     color: #838383;
     text-align: center;
-}
-
-a {
-    color: #E3E3E3;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #FFFFFF;
 }
