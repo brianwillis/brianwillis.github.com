@@ -1,6 +1,6 @@
 About this repository
 =====================
-This repo contains the code for [brianwillis.com](http://brianwillis.com), a personal blog running the excellent [Jekyll](http://github.com/mojombo/jekyll) blogging engine originally wirtten by [Tom Preston-Werner](http://tom.preston-werner.com/).
+This repo contains the code for [brianwillis.com](http://brianwillis.com), a personal blog running the excellent [Jekyll](http://github.com/mojombo/jekyll) blogging engine originally written by [Tom Preston-Werner](http://tom.preston-werner.com/).
 
 Licensing
 =========
