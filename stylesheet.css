@@ -31,13 +31,13 @@ body {
     word-spacing: 10px;
 }
 
-.postcontent {
-    margin-bottom: 75px;
-}
-
 #footer{
     position: relative;
     padding-bottom: 25px;
+}
+
+.postcontent {
+    margin-bottom: 75px;
 }
 
 h1 {
@@ -62,6 +62,14 @@ p {
     font-size: 1em;
     line-height: 175%;
     color: #E3E3E3;
+}
+
+p a:link {
+    border-bottom: 1px dotted #E3E3E3
+}
+
+p a:hover {
+    border-bottom: 1px dotted #FFFFFF
 }
 
 .byline {
