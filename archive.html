@@ -2,5 +2,7 @@
 layout: default
 title: Brian Willis
 ---
-        <h2>Archive</h2>{% for post in site.posts %}
-        <p><a href="{{ post.url }}">{{ post.date | date: "%d %B %Y" }} &raquo; {{ post.title }}</a></p>{% endfor %}
+        <div class="postcontent">
+            <h2>Archive</h2>{% for post in site.posts %}
+            <p><a href="{{ post.url }}">{{ post.date | date: "%d %B %Y" }} &raquo; {{ post.title }}</a></p>{% endfor %}
+        </div>

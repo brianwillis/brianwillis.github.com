@@ -12,7 +12,7 @@ body {
 #header {
     position:relative;
     height: 60px;
-    padding-top: 100px;
+    margin-top: 80px;
 }
 
 #sitename {
@@ -33,11 +33,11 @@ body {
 
 #footer{
     position: relative;
-    padding-bottom: 25px;
+    margin-bottom: 48px;
 }
 
 .postcontent {
-    margin-bottom: 75px;
+    margin-bottom: 48px;
 }
 
 h1 {
@@ -53,6 +53,7 @@ h2 {
     font-weight: 300;
     font-size: 1.8em;
     color: #E3E3E3;
+    margin-top: 16px;
     margin-bottom: 0px;
 }
 
@@ -96,4 +97,6 @@ a:hover {
     font-size: 0.75em;
     color: #838383;
     text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
