@@ -5,7 +5,7 @@ title: Predictions for 2012
 
 Just for fun, here's some baseless speculation about the upcoming year.
 
-Research in Motion dies with a whimper. They get bought out by another company who wants their patent portfolio. I'm guessing it'll be Microsoft, but Google and Samsung are equally good candidates. In the press release announcing the purchase of RIM, Mike Lazaridis makes absolutely no sense.
+Research in Motion dies with a whimper. They get bought out by another company who wants their patent portfolio. I'm guessing Microsoft, but Google and Samsung are equally good candidates. In the press release announcing the purchase of RIM, Mike Lazaridis makes absolutely no sense.
 
 Under its new GPL-compatible license, WebOS gets a new hardware vendor. A real one, who is getting sick of the Android licensing and patent situation. Unlike HP, this company actually gives a damn about the future of the project, and devotes considerable resources to filing down its rough edges. Citing WebOS's respect for freedom, Stallman throws his weight behind the the project. This results in approximately zero people buying a WebOS tablet. Citing pleasant hardware and polished software, Walt Mossberg throws his weight behind the project. This results in a couple million people buying a WebOS tablet.
 
