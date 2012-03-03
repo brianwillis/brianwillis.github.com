@@ -4,7 +4,7 @@ This repo contains the code for [brianwillis.com](http://brianwillis.com), a per
 
 Licensing
 =========
-The contents of the _posts/ directory are Copyright &copy; Brian Willis 2011.
+The contents of the _posts/ and images/ directories are Copyright &copy; Brian Willis 2011.
 
 All other files and directories are provided under the [MIT license](http://www.opensource.org/licenses/mit-license.php). Full text of the license is available below.
 
