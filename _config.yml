@@ -1,2 +1,3 @@
 markdown: rdiscount
 pygments: true
+width: 700px
