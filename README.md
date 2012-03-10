@@ -4,13 +4,13 @@ This repo contains the code for [brianwillis.com](http://brianwillis.com), a per
 
 Licensing
 =========
-The contents of the _posts/ and images/ directories are Copyright &copy; Brian Willis 2011.
+The contents of the _posts/ and images/ directories are Copyright &copy; Brian Willis.
 
 All other files and directories are provided under the [MIT license](http://www.opensource.org/licenses/mit-license.php). Full text of the license is available below.
 
 The MIT License
 ---------------
-Copyright &copy; Brian Willis
+Copyright &copy; Brian Willis.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
