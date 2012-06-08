@@ -7,7 +7,7 @@ For the past month I've been trekking around Southeast Asia. There's a million b
 
 **Plan your stay around local transport.** If you're going to Bangkok, find a hotel near the sky train. Your other options for transport are pretty miserable. Tuk-tuk drivers want to take you to their cousin's store where you'll be pressured into buying crap so that the driver can make a commission, and taxi drivers never want to use the meter (in Thailand the government regulates meter prices for taxis so drivers would rather haggle you into an inflated price). Take the sky train whenever possible, and you'll avoid all this crap. I know that out of the way budget hotel has rates that are hard to ignore, but every dollar you save on the room you'll end up spending on transport.
 
-<img src="/images/2012-06-08-wat-phra-singh.jpg" alt="Wat Phra Singh in Chiang Mai, Thailand." width="{{ site.width }}"/>
+<img src="/images/2012-06-08-wat-phra-singh.jpg" alt="Wat Phra Singh in Chiang Mai, Thailand." title="Wat Phra Singh in Chiang Mai, Thailand." width="{{ site.width }}"/>
 
 **The iPad has become the world's default computing device.** In my completely anecdotal experience, iPads outnumber laptops by around three to one. On my flight between Sydney and Bangkok every single row in economy class had at least one person using one. Both travellers and locals seem pretty enamoured with them.
 
@@ -15,7 +15,7 @@ For the past month I've been trekking around Southeast Asia. There's a million b
 
 I didn't really understand why until I'd spent a few days in Cambodia. When you make a purchase, any change you receive that's less than one US Dollar is paid out in Rial. This means that you're not carrying a bunch of coins, which I was grateful for, but it also means that after a few days your wallet will start to resemble a drug dealer's. My bifold was so thick with notes that I couldn't fold in half. As I went to leave Cambodia, I changed out my two inch stack of Rials and walked away with six bucks.
 
-<img src="/images/2012-06-08-angkor-wat.jpg" alt="Angkor Wat in Cambodia." width="{{ site.width }}"/>
+<img src="/images/2012-06-08-angkor-wat.jpg" alt="Angkor Wat in Cambodia." title="Angkor Wat in Cambodia." width="{{ site.width }}"/>
 
 **Smaller cities are a great place to chill out.** I loved Chiang Mai in the north of Thailand, and Siem Reap in the north of Cambodia. Both of them easily beat out their respective capital cities on a bunch of metrics. Hotels are cheaper, people selling things are less pushy, drivers are less reckless, tourist attractions are less crowded, people seem happier. The lower population density makes for a calmer environment, and being further north drops the temperature a few degrees. 
 
@@ -23,7 +23,7 @@ I didn't really understand why until I'd spent a few days in Cambodia. When you 
 
 **Free wifi is abundant**, though sometimes slow. If life were like this back home I'd be a happy man. I sincerely hope that the days of hotels in the developed world charging $30/night for wifi are coming to an end. I paid less than that for my entire room in most places, and wifi was always included free. The same goes for cafes and restaurants - it's an expectation that they'll have internet access.
 
-<img src="/images/2012-06-08-dot-mac.jpg" alt="Retail boxes for .mac subscriptions." width="{{ site.width }}"/>You can still buy a <a href="http://en.wikipedia.org/wiki/MobileMe#.Mac">.mac</a> subscription in Bangkok (though why you'd want to is beyond me).
+<img src="/images/2012-06-08-dot-mac.jpg" alt="Retail boxes for .mac subscriptions." title="Retail boxes for .mac subscriptions." width="{{ site.width }}"/>You can still buy a <a href="http://en.wikipedia.org/wiki/MobileMe#.Mac">.mac</a> subscription in Bangkok (though why you'd want to is beyond me).
 
 **The smartphone is the greatest invention for travellers since Lonely Planet guidebooks**. You should absolutely bring yours with you. I knew I'd find myself using the camera and currency converter often, but I've also been surprised by how much easier it is to read a paper map while using your phone's built in compass, and Google Maps with GPS (which is pretty easy to access with the aforementioned wifi) saved me from being seriously lost on more than one occasion.
 
