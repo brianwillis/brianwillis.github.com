@@ -13,7 +13,7 @@ For the past month I've been trekking around Southeast Asia. There's a million b
 
 <u>Cambodians don't use their own currency.</u> Well, not much anyway. The Cambodian Rial has seen such dramatic inflation over the years that it's now practically worthless. American Dollars are used everywhere for pretty much everything. When you get off the plane in Phnom Penh, you'll be directed to a counter to apply for your entry visa. This costs 20 US Dollars. You can not pay in Rial. Hold this idea in your head for a second: the Cambodian government, in its official capacity as the authorising agent of Cambodian visas, does not accept its own currency.
 
-I didn't really understand why until I'd spent a few days in Cambodia. When you make a purchase, any change you receive that's less than one US Dollar is paid out in Rial. This means that you're not carrying a bunch of coins, which I was grateful for, but it also means that after a few days your wallet will start to resemble a drug dealer's. My bifold was so thick with notes that I couldn't fold in half. As I went to leave Cambodia, I changed out my two inch stack of Rials and walked away with six bucks.
+I didn't really understand why until I'd spent a few days in Cambodia. When you make a purchase, any change you receive that's less than one US Dollar is paid out in Rial. This means that you're not carrying a bunch of coins, which I was grateful for, but it also means that after a few days your wallet will start to resemble a drug dealer's. My bifold was so thick with notes that I couldn't fold it in half. As I went to leave Cambodia, I changed out my two inch stack of Rials and walked away with six bucks.
 
 <img src="/images/2012-06-08-angkor-wat.jpg" alt="Angkor Wat in Cambodia." title="Angkor Wat in Cambodia." width="{{ site.width }}"/>
 
@@ -21,7 +21,7 @@ I didn't really understand why until I'd spent a few days in Cambodia. When you 
 
 <u>Local food can be surprisingly difficult to find</u>, especially around hotels. Italian food seems to have become the world's de facto comfort food. Pizza, ice cream, pasta, burritos, french fries, and burgers are all incredibly easy to find. I can appreciate that in a restaurant that mainly caters to tourists you'd have some western offerings, but I didn't expect I'd have to wade through six pages of fast food to find Pad Thai hidden begrudgingly at the back of the menu.
 
-<u>Free wifi is abundant</u>, though sometimes slow. If life were like this back home I'd be a happy man. I sincerely hope that the days of hotels in the developed world charging $30/night for wifi are coming to an end. I paid less than that for my entire room in most places, and wifi was always included free. The same goes for cafes and restaurants - it's an expectation that they'll have internet access.
+<u>Free wifi is abundant</u>, though sometimes slow. If life were like this back home I'd be a happy man. I sincerely hope that the days of hotels in the developed world charging $30 a night for wifi are coming to an end. I paid less than that for my entire room in most places, and wifi was always included free. The same goes for cafes and restaurants - it's an expectation that they'll have internet access.
 
 <img src="/images/2012-06-08-dot-mac.jpg" alt="Retail boxes for .mac subscriptions." title="Retail boxes for .mac subscriptions." width="{{ site.width }}"/>You can still buy a <a href="http://en.wikipedia.org/wiki/MobileMe#.Mac">.mac</a> subscription in Bangkok (though why you'd want to is beyond me).
 
