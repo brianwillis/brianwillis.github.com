@@ -65,6 +65,10 @@ p {
     color: #E3E3E3;
 }
 
+p strong {
+    font-weight: 500;
+}
+
 p a:link {
     border-bottom: 1px dotted #E3E3E3;
 }
