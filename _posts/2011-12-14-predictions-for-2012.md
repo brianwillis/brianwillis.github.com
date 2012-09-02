@@ -19,4 +19,4 @@ From any standpoint, Android on tablets does badly. The majority of consumers st
 
 Gabe Newell announces Half Life 3 at E3. It uses an all-new graphics engine developed by Valve to eventually replace Source. In the game, all our questions are answered, and fans get a satisfying ending to a franchise they've loved for more than a decade.
 
-OK, maybe that last paragrah is more wishfull thinking than a sensible prediciton, but a guy can dream.
+OK, maybe that last paragraph is more wishfull thinking than a sensible prediciton, but a guy can dream.
