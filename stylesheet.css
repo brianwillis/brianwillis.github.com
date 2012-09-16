@@ -44,6 +44,7 @@ h1 {
     font-family: Museo-slab, Helvetica, Verdana, Arial, Sans-Serif;
     font-weight: 300;
     font-size: 3em;
+    color: #CCCCCC;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -52,7 +53,7 @@ h2 {
     font-family: Museo-slab, Helvetica, Verdana, Arial, Sans-Serif;
     font-weight: 300;
     font-size: 1.8em;
-    color: #E3E3E3;
+    color: #CCCCCC;
     margin-top: 16px;
     margin-bottom: 0px;
 }
@@ -62,7 +63,7 @@ p {
     font-weight: 300;
     font-size: 1em;
     line-height: 175%;
-    color: #E3E3E3;
+    color: #999999;
 }
 
 p strong {
@@ -70,7 +71,7 @@ p strong {
 }
 
 p a:link {
-    border-bottom: 1px dotted #E3E3E3;
+    border-bottom: 1px dotted #CCCCCC;
 }
 
 p a:hover {
@@ -78,7 +79,7 @@ p a:hover {
 }
 
 a {
-    color: #E3E3E3;
+    color: #CCCCCC;
     text-decoration: none;
 }
 
@@ -90,7 +91,7 @@ a:hover {
     font-family: Museo-sans, Helvetica, Verdana, Arial, Sans-Serif;
     font-weight: 300;
     font-size: 0.75em;
-    color: #838383;
+    color: #999999;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -99,7 +100,7 @@ a:hover {
     font-family: Museo-sans, Helvetica, Verdana, Arial, Sans-Serif;
     font-weight: 300;
     font-size: 0.75em;
-    color: #838383;
+    color: #999999;
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
