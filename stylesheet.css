@@ -33,10 +33,7 @@ body {
 
 #footer{
     position: relative;
-    margin-bottom: 48px;
-}
-
-.postcontent {
+    margin-top: 48px;
     margin-bottom: 48px;
 }
 
@@ -54,7 +51,7 @@ h2 {
     font-weight: 300;
     font-size: 1.8em;
     color: #CCCCCC;
-    margin-top: 16px;
+    margin-top: 48px;
     margin-bottom: 0px;
 }
 
