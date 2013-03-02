@@ -3,7 +3,7 @@ layout: post
 title: Predictions for 2013
 ---
 
-I've decided to make this an annual tradition around here. Remember folks: this rampant speculation about the upcoming year is for entertainment only. I have no inside knowledge. Thankfully.
+I've decided to make this an annual tradition around here. Remember folks - this rampant speculation about the upcoming year is for entertainment only. I have no inside knowledge. Thankfully.
 
 But first, a retrospective on [last year's predictions][1]. In short, I didn't do all that well. I'd never get a job reading tarot cards. RIM is still in business, but it's hard to say for how long. WebOS didn't really go anywhere significant. Windows 8 had an OK-but-not-great launch. We didn't see a 15" MacBook Air (though the new Retina MacBook Pro fills the slot where I expected a 15" Air to land). I was more or less right about Android on tablets and smartphones though (I even got the *Jelly Bean* code name right), so that's something.
 

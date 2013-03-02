@@ -3,9 +3,11 @@ layout: post
 title: Design for Hackers
 ---
 
-I first heard about David Kadavy's book *Design for Hackers* on [Kickstarter](http://kickstarter.com), where he was raising funds to go on a book tour. The irrational part of my brain that thinks autographed copies of books are somehow better than the regular ones disregarded the fact that international shipping would make this one of the most expensive book purchases I've made in years, and hit the "donate" button. To be fair, the USD 75 that I ended up spending turned out to be worth it.
+I first heard about David Kadavy's book *Design for Hackers* on [Kickstarter](http://kickstarter.com), where he was raising funds to go on a book tour. The irrational part of my brain that thinks autographed copies of books are somehow better than the regular ones disregarded the fact that international shipping would make this one of the most expensive book purchases I've made in years, and hit the "donate" button. To be fair, the $75 that I ended up spending turned out to be worth it.
 
-<img src="/images/2012-03-03-kadavy-autograph.jpg" alt="David Kadavy's autograph on the first page of Design for Hackers." title="David Kadavy's autograph on the first page of Design for Hackers." width="{{ site.width }}"/>Look! An autograph!
+<img src="/images/2012-03-03-kadavy-autograph.jpg" alt="David Kadavy's autograph on the first page of Design for Hackers." title="David Kadavy's autograph on the first page of Design for Hackers." width="{{ site.width }}"/>
+
+Look! An autograph!
 
 I'm sure many of you reading this started out creating user interfaces in the same way I did. We can appreciate good design and pleasant aesthetics. We've got this idea in our heads that because we can recognise good design and see it in the work of others, that we should be able to create it ourselves. I mean, how hard could it be?
 
