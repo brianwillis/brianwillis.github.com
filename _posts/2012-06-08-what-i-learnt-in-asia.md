@@ -23,7 +23,9 @@ I didn't really understand why until I'd spent a few days in Cambodia. When you 
 
 **Free wifi is abundant**, though sometimes slow. If life were like this back home I'd be a happy man. I sincerely hope that the days of hotels in the developed world charging $30 a night for wifi are coming to an end. I paid less than that for my entire room in most places, and wifi was always included free. The same goes for cafes and restaurants - it's an expectation that they'll have internet access.
 
-<img src="/images/2012-06-08-dot-mac.jpg" alt="Retail boxes for .mac subscriptions." title="Retail boxes for .mac subscriptions." width="{{ site.width }}"/>You can still buy a [.mac subscription][1] in Bangkok (though why you'd want to is beyond me).
+<img src="/images/2012-06-08-dot-mac.jpg" alt="Retail boxes for .mac subscriptions." title="Retail boxes for .mac subscriptions." width="{{ site.width }}"/>
+
+You can still buy a [.mac subscription][1] in Bangkok (though why you'd want to is beyond me).
 
 **The smartphone is the greatest invention for travellers since Lonely Planet guidebooks**. You should absolutely bring yours with you. I knew I'd find myself using the camera and currency converter often, but I've also been surprised by how much easier it is to read a paper map while using your phone's built in compass, and Google Maps with GPS (which is pretty easy to access with the aforementioned wifi) saved me from being seriously lost on more than one occasion.
 
