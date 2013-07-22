@@ -29,6 +29,8 @@ body {
 	font-weight: 300;
 	font-size: 1.3em;
 	word-spacing: 10px;
+	width: 300px;
+	text-align: right;
 }
 	
 #footer{
