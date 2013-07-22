@@ -78,6 +78,8 @@ p a:hover {
 a {
     color: #CCCCCC;
     text-decoration: none;
+	transition: color 0.25s ease-in;
+    -webkit-transition: color 0.25s ease-in;
 }
 
 a:hover {
