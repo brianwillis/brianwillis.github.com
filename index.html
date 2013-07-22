@@ -5,7 +5,7 @@ title: Brian Willis
     {% for post in site.posts limit: 5 %}
     <div class="postcontent">
         <h2><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
-        <p class="byline">{{ post.date | date_to_long_string }}</p>{{ post.content }}
+        <p class="byline">{{ post.date | date: "%e %B %Y" }}</p>{{ post.content }}
     </div>{% endfor %}
 
 

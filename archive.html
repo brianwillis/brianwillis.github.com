@@ -4,5 +4,5 @@ title: Archive
 ---
         <div class="postcontent">
             <h2>Archive</h2>{% for post in site.posts %}
-            <p><a href="{{ post.url }}">{{ post.date | date: "%d %B %Y" }} &raquo; {{ post.title }}</a></p>{% endfor %}
+            <p><a href="{{ post.url }}">{{ post.date | date: "%e %B %Y" }} &raquo; {{ post.title }}</a></p>{% endfor %}
         </div>
