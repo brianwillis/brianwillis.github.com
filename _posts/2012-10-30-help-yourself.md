@@ -7,7 +7,7 @@ The self-help genre tends to be pretty hopeless. You never see authors promoting
 
 A while back [Jeff Atwood wrote a post][1] about a self-help book that I'll talk about here, and he had some positive things to say. Jeff's a pretty bright guy, so this surprised me and made me think I should perhaps reconsider my position. I've been shifting gears in the last couple of months, thinking about what it is that I really want for my life, and so, looking for guidance, I let down my guard and read a few well recommended books in the self-help genre. I'm going to talk about three of them here, in order from worst to best.
 
-<img src="/images/2012-10-30-the-element-book-cover.jpg" alt="Cover of The Element by Ken Robinson." title="Cover of The Element by Ken Robinson." width="{{ site.width }}"/>
+<img src="/images/2012-10-30-the-element-book-cover.jpg" alt="Cover of The Element by Ken Robinson." title="Cover of The Element by Ken Robinson."/>
 
 Riding on the coat tails of his widely watched and [fairly entertaining TED talk][2], Ken Robinson's book *The Element* aims to flesh out the argument he made at TED more fully, and, I don't know, make some money? I honestly have no idea what the purpose of this book is.
 
@@ -23,7 +23,7 @@ I could rant about this for a while, and in an early draft of this post I did ex
 
 Moving on&hellip;
 
-<img src="/images/2012-10-30-59-seconds-book-cover.jpg" alt="Cover of 59 Seconds by Richard Wiseman." title="Cover of 59 Seconds by Richard Wiseman." width="{{ site.width }}"/>
+<img src="/images/2012-10-30-59-seconds-book-cover.jpg" alt="Cover of 59 Seconds by Richard Wiseman." title="Cover of 59 Seconds by Richard Wiseman."/>
 
 The post Jeff Atwood wrote that started this whole thing off, was about *59 Seconds* by Richard Wiseman. It's a remarkable and unique book that takes the evidence collected by psychology researchers, strips it from the dry academic tomes where it's being held hostage, and presents it to us mere mortals in a readable and accessible way.
 
@@ -35,7 +35,7 @@ For example: Does talking about traumatic events from your past helps you recove
 
 Does spending some time visualising having already achieved your goals make it more likely that you'll follow through? Nope. Sorry. Apologies to all the "law of attraction" fans out there, but there's no evidence of that. In fact there's some evidence that it might reduce your motivation to get whatever it is you're aiming for.
 
-<img src="/images/2012-10-30-switch-book-cover.jpg" alt="Cover of Switch by Chip and Dan Heath." title="Cover of Switch by Chip and Dan Heath." width="{{ site.width }}"/>
+<img src="/images/2012-10-30-switch-book-cover.jpg" alt="Cover of Switch by Chip and Dan Heath." title="Cover of Switch by Chip and Dan Heath."/>
 
 The last book I want to talk about is *Switch* by Chip and Dan Heath. This book deals specifically with change, which is what self improvement is really all about. *Switch* takes a broader focus, teaching us how to create change not just in ourselves but in groups and organisations that we lead.
 
