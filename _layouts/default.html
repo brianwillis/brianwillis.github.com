@@ -5,8 +5,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-	<meta name="description" content="A personal blog." />
-	<meta name="viewport" content="initial-scale=1.0" />
+    <meta name="description" content="A personal blog." />
+    <meta name="viewport" content="initial-scale=1.0" />
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/stylesheet.css" />
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -41,9 +41,11 @@
                 <h1><a href="/">Brian Willis</a></h1>
             </div>
             <div id="menu">
-                <a href="/about.html" title="About me and the site">About</a>
-                <a href="/archive.html" title="A list of older posts">Archive</a>
-                <a href="http://feeds.feedburner.com/brianwillis" title="Subscribe to the feed">Subscribe</a>
+                <ul>
+                    <li><a href="/about.html" title="About me and the site">About</a></li>
+                    <li><a href="/archive.html" title="A list of older posts">Archive</a></li>
+                    <li><a href="http://feeds.feedburner.com/brianwillis" title="Subscribe to the feed">Subscribe</a></li>
+                </ul>
             </div>
         </div>
 {{ content }}
