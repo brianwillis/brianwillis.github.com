@@ -135,7 +135,7 @@ p a:hover {
     border-bottom: 1px dotted #FFFFFF;
 }
 
-@media screen and (max-width: 699px) {
+@media screen and (max-width: 715px) {
     #container {
         width: auto;
     }
