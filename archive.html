@@ -4,5 +4,17 @@ title: Archive
 ---
         <div class="postcontent">
             <h2>Archive</h2>{% for post in site.posts %}
-            <p><a href="{{ post.url }}">{{ post.date | date: "%e %B %Y" }} &raquo; {{ post.title }}</a></p>{% endfor %}
+            <p><a href="{{ post.url }}">
+            {% assign page_date = post.date | date: "%e" | replace: ' ', '' %}
+            {% assign page_date_least_sig_digit = page_date | split: '' | last %}
+            {% if page_date_least_sig_digit == '1' and page_date != '11' %}
+                {% assign page_date_for_presentation = page_date | append: 'st' %}
+            {% elsif page_date_least_sig_digit == '2' and page_date != '12' %}
+                {% assign page_date_for_presentation = page_date | append: 'nd' %}
+            {% elsif page_date_least_sig_digit == '3' and page_date != '13' %}
+                {% assign page_date_for_presentation = page_date | append: 'rd' %}
+            {% else %}
+                {% assign page_date_for_presentation = page_date | append: 'th' %}
+            {% endif %}
+            {{ page_date_for_presentation }}{{ post.date | date: " %B %Y" }} &raquo; {{ post.title }}</a></p>{% endfor %}
         </div>
