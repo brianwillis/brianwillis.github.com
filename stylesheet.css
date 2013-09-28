@@ -58,6 +58,17 @@ img {
     margin-bottom: 0px;
 }
 
+.footnotes {
+    margin-top: 40px;
+}
+
+.footnotes ol, .footnotes p {
+    font-family: Museo-sans, Helvetica, Verdana, Arial, Sans-Serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #AAAAAA;
+}
+
 .copyright {
     font-family: Museo-sans, Helvetica, Verdana, Arial, Sans-Serif;
     font-weight: 300;
@@ -125,6 +136,11 @@ p {
 
 p strong {
     font-weight: 700;
+}
+
+p sup {
+	line-height: 0;
+	font-size: 0.75em;
 }
 
 p a:link {
