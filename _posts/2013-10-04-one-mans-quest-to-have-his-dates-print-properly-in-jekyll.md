@@ -7,7 +7,7 @@ I'm loving [Jekyll][1] as a blogging engine. I do not however, love how it forma
 
     2013-10-04T06:15:00Z
 	
-(That's an ISO 8601 date in full Zulu form, in case you were interested.)
+That's an ISO 8601 date in full Zulu form, in case you were interested.
 
 While we're at it, dates had better not look like this:
 
