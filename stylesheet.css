@@ -151,6 +151,20 @@ p a:hover {
     border-bottom: 1px dotted #FFFFFF;
 }
 
+pre {
+	background-color: #303030;
+	padding-left: 5px;
+}
+
+code {
+	background-color: #303030;
+    font-family: "Courier New", Sans-Serif;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 150%;
+    color: #AAAAAA;
+}
+
 @media screen and (max-width: 715px) {
     #container {
         width: auto;
