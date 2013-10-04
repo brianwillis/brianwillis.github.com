@@ -19,13 +19,13 @@ This is almost right:
 
     04 October 2013
 	
-&hellip;because it has an unambiguous month, but that leading zero on the day reminds me of ledgers printed with dot matrix printers, and most irritating of all it's missing the suffix. Today isn't "the zero four" of October, it's "the 4th". Our dates should be written that way so that they're read that way.
+&hellip;because it has an unambiguous month, but that leading zero on the day reminds me of ledgers printed with dot matrix printers, and most irritating of all it's missing the suffix. Today isn't "the zero four" of October, it's "the 4th" and our dates should be written that way.
 
 So we've established that we want this:
 
     4th October 2013
 
-The more hasty readers amongst you will have leapt to the conclusion that you can just pick the appropriate filters and have all that perfectly formatted goodness just spill out. But no! It's not that simple! Because Jekyll uses Liquid for filters, which uses strftime for formatting dates, and strftime doesn't have support for suffixes on dates. I know all this because I raised an issue with the nice people on the Liquid team asking them to add support for suffixes on dates, and they (very politely) said no.
+The more hasty readers amongst you will have leapt to the conclusion that you can pick the appropriate filters and have all that perfectly formatted goodness just spill out. But no! It's not that simple! Because Jekyll uses Liquid for filters, which uses strftime for formatting dates, and strftime doesn't have support for suffixes on dates. I know all this because I raised an issue with the nice people on the Liquid team asking them to add support for suffixes on dates, and they (very politely) said no.
 
 So I was torn. I wasn't about to go spelunking through the code to strftime to figure out a way to do this. For one thing, it's written in C and languages without garbage collection are for braver men than me. Also after this many decades of active development I'm sure it's an incredibly complex and sophisticated beast. I've written a small amount of code to handle time zones and it made my brain hurt. I can't imagine working full time on a project where all you do is wrangle dates.
 
