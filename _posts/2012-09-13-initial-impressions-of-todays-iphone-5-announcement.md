@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Initial Impressions of Today's iPhone 5 Announcement
+title: Initial Impressions of Today’s iPhone 5 Announcement
 ---
 
 Apple will sell a lot of these. Any criticism that you hear today will be shut down with the counter-argument that Apple is going to sell millions of iPhone 5s and we all know it. 

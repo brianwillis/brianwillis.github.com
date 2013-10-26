@@ -1,6 +1,6 @@
 ---
 layout: post
-title: One Man's Quest to Have His Dates Print Properly in Jekyll
+title: One Man’s Quest to Have His Dates Print Properly in Jekyll
 ---
 
 I'm loving [Jekyll][1] as a blogging engine. I do not however, love how it formats dates. Outside of a databse table, a date should not look like this:

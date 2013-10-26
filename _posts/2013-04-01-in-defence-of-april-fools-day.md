@@ -1,6 +1,6 @@
 ---
 layout: post
-title: In Defence of April Fool's Day
+title: In Defence of April Fool’s Day
 ---
 
 There's a culture that has developed on the web. Like any large group of people thrown together in loose association, societal norms have sprung up that dictate what's considered acceptable behaviour. Over the last few years, April Fool's Day has evolved into a collective excuse to let our hair down and do something a little silly for a few hours. It's a pleasant tradition that I get a chuckle out of each year, and I'm sure many of you reading this feel the same way.
