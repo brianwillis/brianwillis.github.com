@@ -43,7 +43,7 @@ So I thought about it some more and came up with this:
       {% else %}
         {% assign suffix = 'th' %}
     {% endcase %}
-    {{ page.date | date: '%e' }}{{ suffix }} {{ page.date | date: '%B %Y' }}
+    {{ page.date | date: '%e' }}{{ suffix }}{{ page.date | date: ' %B %Y' }}
     {% endraw %}
 
 Yes, I know. This solution is not elegant. It's a monstrous piece of code which aims to achieve something very simple. It works at the wrong level of abstraction, using Liquid filters when it should be using C. It's probably hopelessly inefficient. 
