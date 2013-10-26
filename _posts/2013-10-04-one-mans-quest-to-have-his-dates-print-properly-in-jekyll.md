@@ -38,7 +38,7 @@ So I thought about it some more and came up with this:
         {% assign suffix = 'st' %}
       {% when '02', '22' %}
         {% assign suffix = 'nd' %}
-      {% when '03' %}
+      {% when '03', '23' %}
         {% assign suffix = 'rd' %}
       {% else %}
         {% assign suffix = 'th' %}
