@@ -46,6 +46,8 @@ So I thought about it some more and came up with this:
     {{ page.date | date: '%e' }}{{ suffix }}{{ page.date | date: ' %B %Y' }}
     {% endraw %}
 
+Update 26th October 2013: [Anatol Broder][2] was kind enough to send me a pull request with a much simpler solution, which you can see above.
+
 Yes, I know. This solution is not elegant. It's a monstrous piece of code which aims to achieve something very simple. It works at the wrong level of abstraction, using Liquid filters when it should be using C. It's probably hopelessly inefficient. 
 
 It does however, have the benefit of actually working. 
@@ -53,3 +55,4 @@ It does however, have the benefit of actually working.
 So if you want pretty dates in your Jekyll blog, copy and paste that into the appropriate place in your templates and you'll be good to go.
 
 [1]: http://jekyllrb.com
+[2]: http://penibelst.de/
