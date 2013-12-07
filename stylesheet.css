@@ -166,7 +166,7 @@ code {
 	background-color: #303030;
     font-family: "Courier New", Sans-Serif;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 16px;
     line-height: 150%;
     color: #AAAAAA;
 }
@@ -208,5 +208,10 @@ code {
     
     time {
         text-align: center;
+    }
+    
+    pre {
+    	float: left;
+    	width: 700px;
     }
 }
