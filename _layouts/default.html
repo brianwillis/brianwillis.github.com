@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <meta name="description" content="A personal blog." />
+    <meta name="description" content="{% if page.description != null %}{{ page.description }}{% elsif page.title != null %}Blog post ‘{{ page.title }}’ by Brian Willis.{% else %}A personal blog.{% endif %}" />
     <meta name="viewport" content="initial-scale=1.0" />
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="/stylesheet.css" />
