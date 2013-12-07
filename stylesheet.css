@@ -10,7 +10,7 @@
     margin-right: auto;
 }
 
-#header {
+header {
     position: relative;
     margin-top: 120px;
 }
@@ -21,14 +21,14 @@
     width: 345px;
 }
 
-#menu {
+header nav {
     position: absolute;
     bottom: 11px;
     right: 0px;
     width: 345px;
 }
     
-#footer{
+footer{
     position: relative;
     margin-top: 70px;
     margin-bottom: 70px;
@@ -40,16 +40,21 @@ img {
     max-width: 700px;
 }
 
-.postcontent {
+article {
     margin-top: 70px;
     margin-bottom: 0px;
 }
 
-.postcontent + .postcontent {
+article + article {
     margin-top: 120px;    
 }
 
-.byline {
+.metaPageSection {
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+
+time {
     font-family: Museo-sans, Helvetica, Verdana, Arial, Sans-Serif;
     font-weight: 300;
     font-size: 1em;
@@ -88,7 +93,7 @@ h1 {
     margin-bottom: 0;
 }
 
-#menu ul {
+nav ul {
     list-style: none;
     font-family: Museo-slab, Helvetica, Verdana, Arial, Sans-Serif;
     font-weight: 300;
@@ -98,11 +103,11 @@ h1 {
     padding: 0px;
 }
 
-#menu li {
+nav li {
     display: inline-block;
 }
 
-#menu li + li {
+nav li + li {
     padding-left: 10px;
 }
 
@@ -170,7 +175,7 @@ code {
         width: auto;
     }
     
-    #header {
+    header {
         margin-top: 70px;
     }
     
@@ -178,7 +183,7 @@ code {
         width: 100%;
     }
     
-    #menu {
+    nav {
         position: relative;
         margin-top: 20px;
         bottom: 0px;
@@ -191,7 +196,7 @@ code {
         text-align: center;
     }
     
-    #menu ul {
+    nav ul {
         text-align: center;
     }
     
@@ -200,7 +205,7 @@ code {
         text-align: center;
     }
     
-    .byline {
+    nav time {
         text-align: center;
     }
 }

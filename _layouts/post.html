@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-        <div class="postcontent">
+        <article>
             <h2>{{ page.title }}</h2>
-            <p class="byline">
+            <time datetime="{{ page.date | date: '%Y-%m-%d' }}" pubdate>
             {% assign day = page.date | date: '%d' %}
             {% case day %}
                 {% when '01', '21', '31' %}
@@ -16,5 +16,5 @@ layout: default
                     {% assign suffix = 'th' %}
             {% endcase %}
             {{ page.date | date: '%e' }}{{ suffix }}{{ page.date | date: ' %B %Y' }}
-            </p>{{ content }}
-        </div>
+            </time>{{ content }}
+        </article>
