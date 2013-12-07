@@ -31,31 +31,34 @@
     <!-- TypeKit -->
     <script type="text/javascript" src="http://use.typekit.com/uuo8wsn.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    
+    <!-- HTML5 shiv to make IE versions < 9 work -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 </head>
 
 <body>
     <div id="container">
-        <div id="topspacer"></div>
-        <div id="header">
+        <header>
             <div id="sitename">
                 <h1><a href="/">Brian Willis</a></h1>
             </div>
-            <div id="menu">
+            <nav>
                 <ul>
                     <li><a href="/about.html" title="About me and the site">About</a></li>
                     <li><a href="/archive.html" title="A list of older posts">Archive</a></li>
                     <li><a href="http://feeds.feedburner.com/brianwillis" title="Subscribe to the feed">Subscribe</a></li>
                 </ul>
-            </div>
-        </div>
-        <div class="postcontent">
+            </nav>
+        </header>
+        <div class="metaPageSection">
             <h2>404 File Not Found</h2>
             <p>Whatever you were looking for isn't here. You might want to try going back to <a href="/">the homepage</a>. If you're really stuck you could always <a href="mailto:brian@brianwillis.com">send me an email</a>.</p>
         </div>
-        <div id="footer">
+        <footer>
             <p class="copyright">Copyright &copy; Brian Willis.</p>
-        </div>
-        <div id="bottomspacer"></div>
+        </footer>
     </div>
 </body>
 </html>
