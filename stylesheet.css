@@ -160,6 +160,7 @@ p a:hover {
 pre {
 	background-color: #303030;
 	padding-left: 5px;
+	overflow: scroll;
 }
 
 code {
@@ -208,10 +209,5 @@ code {
     
     time {
         text-align: center;
-    }
-    
-    pre {
-    	float: left;
-    	width: 700px;
     }
 }
