@@ -61,6 +61,7 @@ time {
     color: #999999;
     margin-top: 0px;
     margin-bottom: 0px;
+	display: block;
 }
 
 .footnotes {
@@ -183,7 +184,7 @@ code {
         width: 100%;
     }
     
-    nav {
+    header nav {
         position: relative;
         margin-top: 20px;
         bottom: 0px;
@@ -196,7 +197,7 @@ code {
         text-align: center;
     }
     
-    nav ul {
+    header nav ul {
         text-align: center;
     }
     
@@ -205,7 +206,7 @@ code {
         text-align: center;
     }
     
-    nav time {
+    time {
         text-align: center;
     }
 }
