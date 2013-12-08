@@ -61,7 +61,7 @@ time {
     color: #999999;
     margin-top: 0px;
     margin-bottom: 0px;
-	display: block;
+    display: block;
 }
 
 .footnotes {
@@ -145,8 +145,8 @@ p strong {
 }
 
 p sup {
-	line-height: 0;
-	font-size: 0.75em;
+    line-height: 0;
+    font-size: 0.75em;
 }
 
 p a:link {
@@ -158,9 +158,9 @@ p a:hover {
 }
 
 pre {
-	background-color: #303030;
-	padding-left: 5px;
-	overflow: scroll;
+    background-color: #303030;
+    padding-left: 5px;
+    overflow: auto;
 }
 
 code {
