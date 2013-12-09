@@ -6,7 +6,7 @@ description: A personal blog.
     {% for post in site.posts limit: 5 %}
     <article>
         <h2><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
-        <time datetime="{{ post.date | date: '%Y-%m-%d' }}" pubdate>
+        <time datetime="{{ post.date | date: '%Y-%m-%d' }}">
         {% assign day = post.date | date: '%d' %}
         {% case day %}
             {% when '01', '21', '31' %}
