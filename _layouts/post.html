@@ -3,7 +3,7 @@ layout: default
 ---
         <article>
             <h2>{{ page.title }}</h2>
-            <time datetime="{{ page.date | date: '%Y-%m-%d' }}" pubdate>
+            <time datetime="{{ page.date | date: '%Y-%m-%d' }}">
             {% assign day = page.date | date: '%d' %}
             {% case day %}
                 {% when '01', '21', '31' %}
