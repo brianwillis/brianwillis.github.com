@@ -19,7 +19,7 @@ layout: none
     </url>
     {% endfor %}
     {% for page in site.pages %}
-    {% if page.url != '/index.html' and page.url != '/sitemap.xml' %}
+    {% if page.url != '/index.html' and page.url != '/sitemap.xml' and page.url != '/atom.xml'%}
     <url>
         <loc>{{ site.url }}{{ page.url }}</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
