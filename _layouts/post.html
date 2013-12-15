@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
-        <article>
-            <h2>{{ page.title }}</h2>
-            <time datetime="{{ page.date | date: '%Y-%m-%d' }}">
+        <article itemscope itemtype="http://schema.org/BlogPosting">
+            <h2 itemprop="name">{{ page.title }}</h2>
+            <meta itemprop="wordCount" content="{{ page.content | number_of_words }}"/>
+            <time itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">
             {% assign day = page.date | date: '%d' %}
             {% case day %}
                 {% when '01', '21', '31' %}
@@ -16,5 +17,5 @@ layout: default
                     {% assign suffix = 'th' %}
             {% endcase %}
             {{ page.date | date: '%e' }}{{ suffix }}{{ page.date | date: ' %B %Y' }}
-            </time>{{ content }}
+            </time><div itemprop="articleBody">{{ content }}</div>
         </article>

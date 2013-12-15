@@ -3,9 +3,10 @@ layout: default
 title: Brian Willis
 ---
     {% for post in site.posts limit: 5 %}
-    <article>
-        <h2><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
-        <time datetime="{{ post.date | date: '%Y-%m-%d' }}">
+    <article itemscope itemtype="http://schema.org/BlogPosting">
+        <h2 itemprop="name"><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
+        <meta itemprop="wordCount" content="{{ post.content | number_of_words }}"/>
+        <time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%d' }}">
         {% assign day = post.date | date: '%d' %}
         {% case day %}
             {% when '01', '21', '31' %}
@@ -18,7 +19,7 @@ title: Brian Willis
                 {% assign suffix = 'th' %}
         {% endcase %}
         {{ post.date | date: '%e' }}{{ suffix }}{{ post.date | date: ' %B %Y' }}
-        </time>{{ post.content }}
+        </time><div itemprop="articleBody">{{ post.content }}</div>
     </article>{% endfor %}
 
 
