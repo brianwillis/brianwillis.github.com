@@ -3,7 +3,7 @@ layout: post
 title: Predictions for 2014
 ---
 
-I didn’t do too badly with [last year’s set of predictions][1]. Tesla really can’t make the Model S fast enough, and Yahoo really did get it together (go Team Marissa!). While I did guess that the Microsoft Surface would do badly, I never in a million years imagined it would fail in a show-Steve-Ballmer-the-door kind of way. That Kit-Kat name for a Android also came out of nowhere.
+I didn’t do too badly with [last year’s set of predictions][1]. Tesla really can’t make the Model S fast enough, and Yahoo really did get it together (go Team Marissa!). While I did guess that the Microsoft Surface would do badly, I never in a million years imagined it would fail in a show-Steve-Ballmer-the-door kind of way. That Kit-Kat name for Android also came out of nowhere.
 
 So, here’s what we have to look forward to in 2014:
 
