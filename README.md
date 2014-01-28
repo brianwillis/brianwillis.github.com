@@ -1,12 +1,14 @@
 About this repository
 =====================
-This repo contains the code for [brianwillis.com](http://brianwillis.com), a personal blog running the excellent [Jekyll](http://github.com/mojombo/jekyll) blogging engine originally written by [Tom Preston-Werner](http://tom.preston-werner.com/).
+This repo contains the code for [brianwillis.com](http://brianwillis.com), a personal blog that uses the excellent [Jekyll](http://github.com/mojombo/jekyll) blogging engine originally written by [Tom Preston-Werner](http://tom.preston-werner.com/).
 
-Licensing
-=========
-The contents of the _posts/ and images/ directories are Copyright &copy; Brian Willis.
+License
+=======
+The contents of the _posts/ and images/ directories are Copyright &copy; Brian Willis. You can not use the contents of these directories without my permission.
 
-All other files and directories are provided under the [MIT license](http://www.opensource.org/licenses/mit-license.php). Full text of the license is available below.
+The scripts/ directory contains scripts written by others, which are governed by their own licenses.
+
+All other files are provided under the [MIT license](http://www.opensource.org/licenses/mit-license.php). Full text of the license is available below. 
 
 The MIT License
 ---------------
