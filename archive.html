@@ -2,7 +2,7 @@
 layout: default
 title: Archive
 ---
-        <div class="metaPageSection">
+        <article>
             <h2>Archive</h2>{% for post in site.posts %}
             <p><a href="{{ post.url }}">
             {% assign day = post.date | date: '%d' %}
@@ -17,4 +17,4 @@ title: Archive
                     {% assign suffix = 'th' %}
             {% endcase %}
             {{ post.date | date: '%e' }}{{ suffix }}{{ post.date | date: ' %B %Y' }} &raquo; {{ post.title }}</a></p>{% endfor %}
-        </div>
+        </article>

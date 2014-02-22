@@ -39,27 +39,44 @@
 </head>
 
 <body>
-    <div id="container">
-        <header>
-            <div id="sitename">
-                <h1><a href="/">Brian Willis</a></h1>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="/about.html" title="About me and the site">About</a></li>
-                    <li><a href="/archive.html" title="A list of older posts">Archive</a></li>
-                    <li><a href="http://feeds.feedburner.com/brianwillis" title="Subscribe to the feed">Subscribe</a></li>
-                </ul>
-            </nav>
-        </header>
-{{ content }}
-        <footer>
-            <p class="copyright">Copyright &copy; 2011 - 2013 Brian Willis.</p>
-        </footer>
+    <header>
+        <h1><a href="/">Brian Willis</a></h1>
+        <nav>
+            <ul>
+                <li><a id="aboutlink" href="/about.html" title="About me and the site">About</a></li>
+                <li><a href="/archive.html" title="A list of older posts">Archive</a></li>
+                <li><a href="http://feeds.feedburner.com/brianwillis" title="Subscribe to the feed">Subscribe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="aboutbox">
+        <div id="abouttext">
+            <p>I’m Brian Willis. I create software, read books, and write when I can.</p>
+            <p>You can find me on <a href="http://alpha.app.net/brianwillis" title="App.net">App.net</a> and <a href="http://twitter.com/_brianwillis" title="Twitter">Twitter</a>, and occasionally I show up on <a href="http://news.ycombinator.com/user?id=brianwillis" title="Hacker News">Hacker News</a>. When it comes to coding, there’s the awesome <a href="http://github.com/brianwillis" title="Github">GitHub</a> (with which this site is produced) and <a href="http://stackoverflow.com/users/118/brian-willis" title="Stack Overflow">Stack Overflow</a> for when I get stuck.</p>
+            <p>If you need to get in touch, I’m available at <a href="mailto:brian@brianwillis.com" title="Send me an email">brian@brianwillis.com</a>.</p>
+            <p>This site is built using the excellent <a href="http://jekyllrb.com">Jekyll</a> blogging engine originally written by <a href="http://tom.preston-werner.com/">Tom Preston-Werner</a>. The whole thing is hosted with <a href="http://pages.github.com/">GitHub Pages</a> (free of charge I might add, which is awfully kind of them).</p> <p>The fonts come from the good people at <a href="http://typekit.com/">TypeKit</a> (and also the bad people at TypeKit). If you look hard enough you’ll find some <a href="http://jquery.com/">JQuery</a> lying around too.
+        </div>
     </div>
+{{ content }}
+    <footer>
+        <p class="copyright">Copyright &copy; 2011 - 2013 Brian Willis.</p>
+    </footer>
     
     <!-- Retina.js -->
     <script type="text/javascript" src="/scripts/retina.js"></script>
     
+    <!-- JQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    
+    <!-- Slide open animation for the About link -->
+    <script>
+        $(document).ready(function() {
+            $("#aboutlink").prop("href", "#");
+        });
+    
+        $("#aboutlink").click(function() {
+            $("#aboutbox").slideToggle("slow");
+        });
+    </script>
 </body>
 </html>

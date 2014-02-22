@@ -1,56 +1,100 @@
 * {
-    background-color: #1C1C1C;
     -webkit-text-size-adjust: 100%;
 }
 
-#container {
-    position: relative;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
+body {
+    margin: 0px;
+    background-color: #1C1C1C;
 }
 
 header {
     position: relative;
-    margin-top: 120px;
+    margin: 120px auto 20px auto;
+	width: 700px;
 }
 
-#sitename {
+h1 {
     position: relative;
     left: 0px;
     width: 345px;
+    font-family: Museo-slab, Helvetica, Verdana, Arial, Sans-Serif;
+    font-weight: 300;
+    font-size: 3.75em;
+    color: #CCCCCC;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-header nav {
+nav {
     position: absolute;
     bottom: 11px;
     right: 0px;
     width: 345px;
 }
-    
-footer{
-    position: relative;
-    margin-top: 70px;
-    margin-bottom: 70px;
+
+nav ul {
+    list-style: none;
+    font-family: Museo-slab, Helvetica, Verdana, Arial, Sans-Serif;
+    font-weight: 300;
+    font-size: 1.3em;
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
 }
 
-img {
-    width: 100%;
-    height: 100%;
-    max-width: 700px;
+nav li {
+    display: inline-block;
+}
+
+nav li + li {
+    padding-left: 10px;
+}
+
+#aboutbox {
+	margin: 0px 0px 0px 0px;
+	border-width: 1px 0px 1px 0px;
+	border-color: #FFFFFF;
+	border-style: solid;
+	width: 100%;
+	background-image: url('/images/squairy_light.png');
+	overflow: hidden;
+	display: none;
+}
+
+#abouttext {
+	margin: 20px auto 20px auto;
+    width: 700px;
+    background-color: inherit;
+}
+
+#abouttext p {
+    background-color: inherit;
+	color: #1C1C1C;
+}
+
+#abouttext a {
+	color: #1C1C1C;	
+    border-bottom: 1px dotted #1C1C1C;
 }
 
 article {
     margin-top: 70px;
     margin-bottom: 0px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 700px;
 }
 
 article + article {
     margin-top: 120px;    
 }
 
-.metaPageSection {
-    margin-top: 70px;
+h2 {
+    font-family: Museo-slab, Helvetica, Verdana, Arial, Sans-Serif;
+    font-weight: 300;
+    font-size: 2.25em;
+    color: #CCCCCC;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
@@ -73,52 +117,6 @@ time {
     font-weight: 300;
     font-size: 1em;
     color: #AAAAAA;
-}
-
-.copyright {
-    font-family: Museo-sans, Helvetica, Verdana, Arial, Sans-Serif;
-    font-weight: 300;
-    font-size: 1em;
-    color: #999999;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-h1 {
-    font-family: Museo-slab, Helvetica, Verdana, Arial, Sans-Serif;
-    font-weight: 300;
-    font-size: 3.75em;
-    color: #CCCCCC;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-nav ul {
-    list-style: none;
-    font-family: Museo-slab, Helvetica, Verdana, Arial, Sans-Serif;
-    font-weight: 300;
-    font-size: 1.3em;
-    text-align: right;
-    margin: 0px;
-    padding: 0px;
-}
-
-nav li {
-    display: inline-block;
-}
-
-nav li + li {
-    padding-left: 10px;
-}
-
-h2 {
-    font-family: Museo-slab, Helvetica, Verdana, Arial, Sans-Serif;
-    font-weight: 300;
-    font-size: 2.25em;
-    color: #CCCCCC;
-    margin-top: 0px;
-    margin-bottom: 0px;
 }
 
 a {
@@ -157,6 +155,12 @@ p a:hover {
     border-bottom: 1px dotted #FFFFFF;
 }
 
+img {
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
+}
+
 pre {
     background-color: #303030;
     padding-left: 5px;
@@ -172,17 +176,26 @@ code {
     color: #AAAAAA;
 }
 
-@media screen and (max-width: 715px) {
-    #container {
-        width: auto;
-    }
-    
+footer{
+    position: relative;
+    margin: 70px auto 70px auto;
+    width: 700px;  
+}
+
+.copyright {
+    font-family: Museo-sans, Helvetica, Verdana, Arial, Sans-Serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #999999;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 715px) {    
     header {
         margin-top: 70px;
-    }
-    
-    #sitename {
-        width: 100%;
+        width: auto;
     }
     
     header nav {
@@ -193,12 +206,33 @@ code {
         text-align: center;
     }
     
+    #aboutbox {
+    	width: auto;
+    }
+
+    #abouttext {
+    	width: auto;
+    	margin-left: 8px;
+    	margin-right: 8px;
+    }
+    
+    article {
+    	width: auto;
+		margin-left: 8px;
+    	margin-right: 8px;
+    }
+    
+    footer {
+    	width: auto;
+	}
+    
     h1 {
+    	width: 100%;
         font-size: 3.25em;
         text-align: center;
     }
     
-    header nav ul {
+	nav ul {
         text-align: center;
     }
     
