@@ -57,6 +57,7 @@ nav li + li {
 	border-style: solid;
 	width: 100%;
 	background-image: url('/images/squairy_light.png');
+	background-size: 200px 200px;
 	overflow: hidden;
 	display: none;
 }
@@ -244,4 +245,11 @@ footer{
     time {
         text-align: center;
     }
+}
+
+/*Swap out the About panel background for high-res artwork on retina displays*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+	#aboutbox {
+		background-image: url('/images/squairy_light@2X.png');
+	}
 }
