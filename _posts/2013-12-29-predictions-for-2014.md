@@ -9,9 +9,9 @@ So, here’s what we have to look forward to in 2014:
 
 Firefox OS hits 1.0, gets some attention amongst the Slashdot crowd, and dies fairly quickly. Android has already gained a lot of traction in the developing world, and Google has a mature operating system and a thriving third-party developer community. Sorry Mozilla, but Google wants this more than you do. 
 
-A new CEO takes over at Microsoft. I really have no idea who. I’ll tell you this though - they won’t have an engineering background, they’ll probably have an MBA, and they’ll put the shareholders short term interests first. Take that for what you will.
+A new CEO takes over at Microsoft. I really have no idea who. I’ll tell you this though - they won’t have an engineering background, they’ll probably have an MBA, and they’ll put the shareholder’s short term interests first. Take that for what you will.
 
-Google Glass goes the way of the Zune. It just isn’t cool to wear a product that’s the target of late night comedy punchlines. Don’t worry though - the underlying technology will stick around, making its way into cars and Android devices. 
+Google Glass goes the way of the Zune. It just isn’t cool to wear a product that’s the target of late night comedy punch lines. Don’t worry though - the underlying technology will stick around, making its way into cars and Android devices. 
 
 For some inexplicable reason, Google will continue to push Google Plus. I think at this point we’re really just observing the sunk cost fallacy at work. In many ways it would hurt morale too much to give up on. It’s easier to just keep hoping that it’ll turn into something relevant eventually. Remember how we all thought social services were the next big wave of innovation on the web? Coupled with Facebook’s declining relevance with teenagers, the whole social space seems to be becoming less and less important.
 
