@@ -43,6 +43,7 @@ nav ul {
 }
 
 nav li {
+	position: relative;
     display: inline-block;
 }
 
@@ -50,11 +51,17 @@ nav li + li {
     padding-left: 10px;
 }
 
-#aboutbox {
+#triangle {
+	position: absolute;
+	top: 56px;
+	left: 12px;
+	width: 36px;
+	height: 21px;
+	opacity: 0;
+}
+
+#aboutBox {
 	margin: 0px 0px 0px 0px;
-	border-width: 1px 0px 1px 0px;
-	border-color: #FFFFFF;
-	border-style: solid;
 	width: 100%;
 	background-image: url('/images/squairy_light.png');
 	background-size: 200px 200px;
@@ -62,20 +69,32 @@ nav li + li {
 	display: none;
 }
 
-#abouttext {
+#aboutText {
 	margin: 20px auto 20px auto;
     width: 700px;
     background-color: inherit;
 }
 
-#abouttext p {
+#aboutText p {
     background-color: inherit;
 	color: #1C1C1C;
 }
 
-#abouttext a {
+#aboutText a {
 	color: #1C1C1C;	
     border-bottom: 1px dotted #1C1C1C;
+}
+
+#aboutText .aboutBoxButton a {
+	background-color: #1C1C1C;
+	color: #CCCCCC;
+	font-size: 0.9em;
+	border-radius: 5px;
+	padding: 3px 6px 3px 6px;
+}
+
+#aboutText .aboutBoxButton a:hover {
+	color: #FFFFFF;
 }
 
 article {
@@ -206,12 +225,12 @@ footer{
         width: 100%;
         text-align: center;
     }
-    
-    #aboutbox {
+        
+    #aboutBox {
     	width: auto;
     }
 
-    #abouttext {
+    #aboutText {
     	width: auto;
     	margin-left: 8px;
     	margin-right: 8px;
@@ -249,7 +268,7 @@ footer{
 
 /*Swap out the About panel background for high-res artwork on retina displays*/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-	#aboutbox {
+	#aboutBox {
 		background-image: url('/images/squairy_light@2X.png');
 	}
 }
