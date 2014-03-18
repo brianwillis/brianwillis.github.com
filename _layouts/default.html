@@ -72,19 +72,12 @@
         var aboutBoxVisible = false;
         
         $(document).ready(function() {
+            // We disable the aboutBox entirely for browsers that don't support the HTML5
+            // features that we need, and for browsers where JavaScript is switched off.
             if (Modernizr.opacity && Modernizr.csstransitions) {
                 $("#aboutLink").prop("href", "#");
                 $("#triangle").css("display", "block");
             }
-        });
-
-        $(window).resize(function() {
-            $("#triangle").css("-webkit-transition", "top 0s");
-            $("#triangle").css("-moz-transition", "top 0s");
-            $("#triangle").css("-o-transition", "top 0s");
-            $("#triangle").css("transition", "top 0s");
-
-            $("#triangle").css("top", getTriangleTop());
         });
 
         $("#aboutLink").click(function() {
@@ -132,7 +125,18 @@
             $("#triangle").css("opacity", "0");
         }
         
+        $(window).resize(function() {
+            $("#triangle").css("-webkit-transition", "top 0s");
+            $("#triangle").css("-moz-transition", "top 0s");
+            $("#triangle").css("-o-transition", "top 0s");
+            $("#triangle").css("transition", "top 0s");
+
+            $("#triangle").css("top", getTriangleTop());
+        });
+        
         function getTriangleTop() {
+            // The site's responsive design requires that we shuffle the location of the 
+            // triangle around as necessary to make everything look right.
             if ($(window).width() > 715) {
                 if (aboutBoxVisible) {
                     return "36px";
