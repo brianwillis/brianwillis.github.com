@@ -35,10 +35,8 @@
     <!-- Font Awesome -->
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     
-    <!-- HTML5 shiv to make IE versions < 9 work -->
-    <!--[if lt IE 9]>
-        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <!-- Modernizr -->
+    <script type="text/javascript" src="/scripts/modernizr.custom.19188.js"></script>
 </head>
 
 <body>
@@ -71,11 +69,13 @@
     
     <!-- Slide open animation for the About link -->
     <script>
-        var aboutBoxVisible;
+        var aboutBoxVisible = false;
         
         $(document).ready(function() {
-            $("#aboutLink").prop("href", "#");
-            aboutBoxVisible = false;
+            if (Modernizr.opacity && Modernizr.csstransitions) {
+                $("#aboutLink").prop("href", "#");
+                $("#triangle").css("display", "block");
+            }
         });
 
         $(window).resize(function() {
