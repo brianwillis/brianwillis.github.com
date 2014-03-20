@@ -77,6 +77,19 @@
             if (Modernizr.opacity && Modernizr.csstransitions) {
                 $("#aboutLink").prop("href", "#");
                 $("#triangle").css("display", "block");
+                
+                // Firefox won't cache image assets that are hidden, until they are displayed.
+                // Here we're forcing the browser to cache the images in advance so that everything looks right.
+                if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+                    var squairy = new Image();
+                    squairy.src = "/images/squairy_light.png";
+                    
+                    var squaryRetina = new Image();
+                    squaryRetina.src = "/images/squairy_light@2X.png";
+                    
+                    var triangle = new Image();
+                    triangle.src = "/images/triangle.png";                    
+                }
             }
         });
 
