@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/brianwillis
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://brianwillis.com
+  * I am brianwillis (https://keybase.io/brianwillis) on keybase.
+  * I have a public key with fingerprint 0C75 AD6C E27B 96E5 EBC2  48AC 90E7 B95B 432F 6784
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "0c75ad6ce27b96e5ebc248ac90e7b95b432f6784",
+            "host": "keybase.io",
+            "key_id": "90e7b95b432f6784",
+            "uid": "cea569d390dc068aaf3e62be533dab00",
+            "username": "brianwillis"
+        },
+        "service": {
+            "hostname": "brianwillis.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396297424,
+    "expire_in": 157680000,
+    "prev": "e3329988b64f8770d4ca3966fb56f7d164bd6970ab12124bd480833283329ec3",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.1
+Comment: https://keybase.io/crypto
+
+yMHrAnicbZFtSFRZGMdnRl3Jyiz7Eiu+XFhSnIY79+1lxGGF+ZCQmu6HqKTpnHvP
+6PXl3vHemdFRhHYlcWKTRQh3UHojTINEm4pGKTRcLXTTipAg2SKFEiSiSERMz5X2
+Ux24HJ7n//v/n3t4JnYnWFKsOT0lvZ6/3EXW6bHVoOU38clcCwE1OUy4WohatH35
+FLUK6X5dUQOEiyAlngUyJyGKhyKHWAQlihGAJJIIN1jI0JSP4wWGsBPVmmE6cAwE
+BnIoGu7hwqvIuPsDPrgtSAiwnCjTIilLJCcA4KMRR0HE0rQMIEmaoIF0FdQjTENd
+AWqjUlenGESrncBCSJGw0LI9/XvIIWn1OMGvawFN0uqwWB0I+F2mNxD2m3Ajgt5v
+MV6oqDJ+PTaEkG4omkq4nJiUAoqZ66RFjhJ5hmLsBGryKzryKibB8pxA4mOOQSEc
+iWiaEkVBgBzjE3ielBkJYC/ngyzn42Unx0CZE3kSQCflpHDBCKSAPeYnIonG8w3U
+oGqEi8a/CapwpKFUqSAQ1BHR+nCsMtFiTbH8lGQz92dJ2ZH2/1aj48kbWSOvT135
+44LflmY8mDqjve+t+Sey1vlf8vHUd5ujGy9e9jctZx8mh3YdrN33u0MrbQuz94j8
+yq5LTxcGHFze5/X0yFIU9s0OPesv7Eb/huZXvpy4DVTQfHcpnl9UYi/MPJTQenRh
+JpZhs3eCm2vlB/4eERradi5VPkfo54qkjozz0ekc25+3Jkbz2JPtn+7ERy9uxp3J
+bs/q/NSvK+1Qz63wnrZ++Ng357nGB4s3Il9fTfYshwez9wwPZJ7tLimeTSx71DwT
+sw4X/HIktr8rN7T4JjW9dL2pJrK36xjtdme1vS2r6e+9XtAxHfdcXqi9UT4ZvR8/
+txhDj+cGx69uAeAFGHw=
+=uQVi
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brianwillis
+
+==================================================================
