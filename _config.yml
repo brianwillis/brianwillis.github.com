@@ -2,6 +2,7 @@ markdown: kramdown
 pygments: false
 width: 700
 url: http://brianwillis.com
+include: ['.well-known']
 aboutText: 
     <p>I’m Brian Willis. I create software, read books, and write when I can.</p>
     <p>You can find me on <a href="http://alpha.app.net/brianwillis" title="App.net">App.net</a> and <a href="http://twitter.com/_brianwillis" title="Twitter">Twitter</a>, and occasionally I show up on <a href="http://news.ycombinator.com/user?id=brianwillis" title="Hacker News">Hacker News</a>. When it comes to coding, I use <a href="http://github.com/brianwillis" title="Github">GitHub</a> (with which this site is produced) and <a href="http://stackoverflow.com/users/118/brian-willis" title="Stack Overflow">Stack Overflow</a> when I get stuck.</p>
