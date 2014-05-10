@@ -97,14 +97,17 @@ h2 {
     margin-bottom: 0px;
 }
 
-time {
+time, .time {
     font-family: Museo-sans, Helvetica, Verdana, Arial, Sans-Serif;
     font-weight: 300;
-    font-size: 1em;
+    font-size: 1rem;
     color: #999999;
     margin-top: 10px;
     margin-bottom: 0px;
-    display: block;
+}
+
+time {
+	display: block;
 }
 
 .footnotes {

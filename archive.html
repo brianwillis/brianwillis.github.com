@@ -4,8 +4,7 @@ title: Archive
 ---
         <article>
             <h2>Archive</h2>{% for post in site.posts %}
-            <p><a href="{{ post.url }}">
-            {% assign day = post.date | date: '%d' %}
+            <p><span class="time">{% assign day = post.date | date: '%d' %}
             {% case day %}
                 {% when '01', '21', '31' %}
                     {% assign suffix = 'st' %}
@@ -16,5 +15,5 @@ title: Archive
                 {% else %}
                     {% assign suffix = 'th' %}
             {% endcase %}
-            {{ post.date | date: '%e' }}{{ suffix }}{{ post.date | date: ' %B %Y' }} &raquo; {{ post.title }}</a></p>{% endfor %}
+            {{ post.date | date: '%e' }}{{ suffix }}{{ post.date | date: ' %B %Y' }} &rsaquo; </span><a href="{{ post.url }}">{{ post.title }}</a></p>{% endfor %}
         </article>
