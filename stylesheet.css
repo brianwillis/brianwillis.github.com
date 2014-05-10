@@ -184,7 +184,7 @@ footer{
     width: 700px;  
 }
 
-.copyright {
+#copyright {
     font-family: Museo-sans, Helvetica, Verdana, Arial, Sans-Serif;
     font-weight: 300;
     font-size: 1em;
