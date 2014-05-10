@@ -5,7 +5,7 @@ title: Design for Hackers
 
 I first heard about David Kadavy's book *Design for Hackers* on [Kickstarter](http://kickstarter.com), where he was raising funds to go on a book tour. The irrational part of my brain that thinks autographed copies of books are somehow better than the regular ones disregarded the fact that international shipping would make this one of the most expensive book purchases I've made in years, and hit the "donate" button. To be fair, the $75 that I ended up spending turned out to be worth it.
 
-<img src="/images/2012-03-03-kadavy-autograph.jpg" alt="David Kadavy's autograph on the first page of Design for Hackers." title="David Kadavy's autograph on the first page of Design for Hackers."/>
+<img src="/images/2012-03-03-kadavy-autograph.jpg" srcset="/images/2012-03-03-kadavy-autograph@2x.jpg" alt="David Kadavy's autograph on the first page of Design for Hackers." title="David Kadavy's autograph on the first page of Design for Hackers."/>
 
 Look! An autograph!
 
@@ -23,7 +23,7 @@ In particular when it comes to typography I've found it difficult to find a dece
 
 The book itself is well designed (it would be pretty ironic if it wasn't). There's plenty of eye candy, with full colour diagrams scattered throughout. It's a real pleasure to casually flick through. You'll often find yourself coming across things that grab your attention and spike your curiosity.
 
-<img src="/images/2012-03-03-full-colour-diagrams.jpg" alt="Full colour diagram from Design for Hackers." title="Full colour diagram from Design for Hackers."/>
+<img src="/images/2012-03-03-full-colour-diagrams.jpg" srcset="/images/2012-03-03-full-colour-diagrams@2x.jpg" alt="Full colour diagram from Design for Hackers." title="Full colour diagram from Design for Hackers."/>
 
 Kadavy spends some time in the early chapters talking about why design matters, reflecting on his time in Europe. There's one particularly good anecdote where he describes the reaction tourists first have to the Pantheon in Rome, and he uses this to illustrate how good design is built up in layers that play off one another to achieve a harmonious whole. There's really no arguing that these chapters that draw on Kadavy's personal experience are just downright better than the rest of the book. Later chapters on colour and typography are densely packed with information, and this makes them a great reference guide, however as a book designed to be read from start to end it's often difficult to see how you'd apply what you're reading about. I'd like to see future editions include walkthroughs of a design project, or anecdotes about how the author solved problems he encountered in the past using the ideas each chapter discusses.
 
