@@ -31,9 +31,6 @@
     <!-- TypeKit -->
     <script type="text/javascript" src="http://use.typekit.com/uuo8wsn.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-        
-    <!-- Modernizr -->
-    <script type="text/javascript" src="/scripts/modernizr.custom.19188.js"></script>
 </head>
 
 <body>
@@ -62,104 +59,25 @@
     
     <!-- Slide open animation for the About link -->
     <script>
-        var aboutBoxVisible = false;
-        
         $(document).ready(function() {
-            // We disable the aboutBox entirely for browsers that don't support the HTML5
-            // features that we need, and for browsers where JavaScript is switched off.
-            if (Modernizr.opacity && Modernizr.csstransitions) {
-                $("#aboutLink").prop("href", "#");
-                $("#triangle").css("display", "block");
-                
-                // Firefox won't cache image assets that are hidden, until they are displayed.
-                // Here we're forcing the browser to cache the images in advance so that everything looks right.
-                if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
-                    var squairy = new Image();
-                    squairy.src = "/images/squairy_light.png";
-                    
-                    var squaryRetina = new Image();
-                    squaryRetina.src = "/images/squairy_light@2X.png";
-                    
-                    var triangle = new Image();
-                    triangle.src = "/images/triangle.png";                    
+            // We don't use the aboutBox with browsers that have JavaScript turned off.
+            $("#aboutLink").prop("href", "#");
+            
+            // Firefox won't cache image assets that are hidden until they are displayed.
+            // Here we're forcing the browser to cache the images in advance so that everything looks right.
+            if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+                var aboutBoxBackground = new Image();
+                if (window.devicePixelRatio > 1) {
+                    aboutBoxBackground.src = "/images/squairy_light@2X.png";
+                } else {
+                    aboutBoxBackground.src = "/images/squairy_light.png";
                 }
             }
         });
 
         $("#aboutLink").click(function() {
-            toggleAboutBox();
+            $("#aboutBox").slideToggle();
         });
-        
-        $("#closeAboutBox").click(function() {
-            toggleAboutBox();
-        });
-        
-        function toggleAboutBox() {
-            if (!aboutBoxVisible) {
-                showAboutBox();
-            }
-            else {
-                hideAboutBox();    
-            }
-        }
-      
-        function showAboutBox() {
-            aboutBoxVisible = true;
-        
-            $("#aboutBox").slideDown("slow");
-            
-            $("#triangle").css("-webkit-transition", "top 0.5s ease-in-out 0.1s, opacity 0s ease-in-out 0.1s");
-            $("#triangle").css("-moz-transition", "top 0.5s ease-in-out 0.1s, opacity 0s ease-in-out 0.1s");
-            $("#triangle").css("-o-transition", "top 0.5s ease-in-out 0.1s, opacity 0s ease-in-out 0.1s");
-            $("#triangle").css("transition", "top 0.5s ease-in-out 0.1s, opacity 0s ease-in-out 0.1s");
-
-            $("#triangle").css("top", getTriangleTop());
-            $("#triangle").css("opacity", "1");
-        }
-        
-        function hideAboutBox() {
-            aboutBoxVisible = false;
-
-            $("#aboutBox").slideUp("slow");
-            
-            $("#triangle").css("-webkit-transition", "top 0.5s ease-in-out 0s, opacity 0s ease-in-out 0.5s");
-            $("#triangle").css("-moz-transition", "top 0.5s ease-in-out 0s, opacity 0s ease-in-out 0.5s");
-            $("#triangle").css("-o-transition", "top 0.5s ease-in-out 0s, opacity 0s ease-in-out 0.5s");
-            $("#triangle").css("transition", "top 0.5s ease-in-out 0s, opacity 0s ease-in-out 0.5s");
-            
-            $("#triangle").css("top", getTriangleTop());
-            $("#triangle").css("opacity", "0");
-        }
-        
-        $(window).resize(function() {
-            $("#triangle").css("-webkit-transition", "top 0s");
-            $("#triangle").css("-moz-transition", "top 0s");
-            $("#triangle").css("-o-transition", "top 0s");
-            $("#triangle").css("transition", "top 0s");
-
-            $("#triangle").css("top", getTriangleTop());
-        });
-        
-        function getTriangleTop() {
-            // The site's responsive design requires that we shuffle the location of the 
-            // triangle around as necessary to make everything look right.
-            if ($(window).width() > 715) {
-                if (aboutBoxVisible) {
-                    return "36px";
-                }
-                else {
-                    return "56px";
-                }
-            }
-            else {
-                if (aboutBoxVisible) {
-                    return "28px";
-                }
-                else {
-                    return "48px";
-                }
-            }
-        }
     </script>
 </body>
 </html>
