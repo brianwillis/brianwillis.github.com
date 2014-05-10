@@ -51,16 +51,6 @@ nav li + li {
     padding-left: 10px;
 }
 
-#triangle {
-	position: absolute;
-	top: 56px;
-	left: 12px;
-	width: 36px;
-	height: 21px;
-	display: none;
-	opacity: 0;
-}
-
 #aboutBox {
 	margin: 0px 0px 0px 0px;
 	width: 100%;
