@@ -86,18 +86,6 @@ nav li + li {
     border-bottom: 1px dotted #1C1C1C;
 }
 
-#aboutText .aboutBoxButton a {
-	background-color: #1C1C1C;
-	color: #CCCCCC;
-	font-size: 0.9em;
-	border-radius: 5px;
-	padding: 3px 6px 3px 6px;
-}
-
-#aboutText .aboutBoxButton a:hover {
-	color: #FFFFFF;
-}
-
 article {
     margin-top: 70px;
     margin-bottom: 0px;
