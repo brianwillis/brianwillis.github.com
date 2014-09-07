@@ -10,7 +10,7 @@ body {
 header {
     position: relative;
     margin: 120px auto 20px auto;
-	width: 700px;
+    width: 700px;
 }
 
 h1 {
@@ -43,7 +43,7 @@ nav ul {
 }
 
 nav li {
-	position: relative;
+    position: relative;
     display: inline-block;
 }
 
@@ -52,34 +52,34 @@ nav li + li {
 }
 
 #aboutBox {
-	margin: 0px 0px 0px 0px;
-	width: 100%;
-	background-image: url('/images/squairy_light.png');
-	background-size: 200px 200px;
-	overflow: hidden;
-	display: none;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    background-image: url('/images/squairy_light.png');
+    background-size: 200px 200px;
+    overflow: hidden;
+    display: none;
 }
 
 #aboutText {
-	margin: 20px auto 20px auto;
+    margin: 20px auto 20px auto;
     width: 700px;
     background-color: inherit;
 }
 
 #aboutText p {
     background-color: inherit;
-	color: #1C1C1C;
+    color: #1C1C1C;
 }
 
 #aboutText a {
-	color: #1C1C1C;	
+    color: #1C1C1C;
     border-bottom: 1px dotted #1C1C1C;
 }
 
 article {
     margin-top: 70px;
     margin-bottom: 0px;
-	margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     width: 700px;
 }
@@ -107,7 +107,7 @@ time, .time {
 }
 
 time {
-	display: block;
+    display: block;
 }
 
 .footnotes {
@@ -170,7 +170,7 @@ pre {
 }
 
 code {
-	background-color: #303030;
+    background-color: #303030;
     font-family: "Courier New", Sans-Serif;
     font-weight: 500;
     font-size: 16px;
@@ -209,32 +209,32 @@ footer{
     }
         
     #aboutBox {
-    	width: auto;
+        width: auto;
     }
 
     #aboutText {
-    	width: auto;
-    	margin-left: 8px;
-    	margin-right: 8px;
+        width: auto;
+        margin-left: 8px;
+        margin-right: 8px;
     }
     
     article {
-    	width: auto;
-		margin-left: 8px;
-    	margin-right: 8px;
+        width: auto;
+        margin-left: 8px;
+        margin-right: 8px;
     }
     
     footer {
-    	width: auto;
-	}
+        width: auto;
+    }
     
     h1 {
-    	width: 100%;
+        width: 100%;
         font-size: 3.25em;
         text-align: center;
     }
     
-	nav ul {
+    nav ul {
         text-align: center;
     }
     
@@ -249,8 +249,12 @@ footer{
 }
 
 /*Swap out the aboutBox background for high-res artwork on retina displays*/
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
-	#aboutBox {
-		background-image: url('/images/squairy_light@2X.png');
-	}
+@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5), 
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
+    #aboutBox {
+        background-image: url('/images/squairy_light@2X.png');
+    }
 }
