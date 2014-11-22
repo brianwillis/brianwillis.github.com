@@ -1,0 +1,78 @@
+==================================================================
+https://keybase.io/brianwillis
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://brianwillis.com
+  * I am brianwillis (https://keybase.io/brianwillis) on keybase.
+  * I have a public key with fingerprint D720 2864 DA8C D49C CBF3  5724 8019 C2B5 E2B2 68A7
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "d7202864da8cd49ccbf357248019c2b5e2b268a7",
+            "host": "keybase.io",
+            "key_id": "8019c2b5e2b268a7",
+            "uid": "cea569d390dc068aaf3e62be533dab00",
+            "username": "brianwillis"
+        },
+        "revoke": {
+            "sig_ids": [
+                "1153ab3db9a51190dfa0dc83727697c1214c5fd1859118f3dfff4c9ab8cbc2ad0f"
+            ]
+        },
+        "service": {
+            "hostname": "brianwillis.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1416629931,
+    "expire_in": 157680000,
+    "prev": "e56bd5daa1b6760bdaa9ae719394390406160231902f073a785f5abb46f39939",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.1.6
+Comment: https://keybase.io/crypto
+
+yMNAAnicbZJ7UFRVHMcBoRBIMApDbBtvoy3y2PvY+1rTUnQiQpFGxixoOffec9nL
+Y3fdFyKD0Ng4ojUwKcMQMCGj7STDgFI8DQc1LCkeA4VDiLyKGR1HKMR4Secy9Ved
+f87j9/19ft/fb87N59Z4+HkWhF7/ZvyKye3Z1XHQ6XHQuq4mFxMsUg5myMUy4Oom
+K+Y0aLPaFLMDM2ASS+Ikx+glwImSnhdFQaZoltRzOMGLpEBDUiAZDrBYJGay2NUM
+hBGAHUYrFvSGLkZFQq//o3euBkQIaIaXKB6XRBxFgExBhhQgTVESEHBcFdqhzQyy
+IFILNgWYs5XMTMWO5UViNuiyZEDVtV1JQ4XsmOEDjCBoCgiUJPCAJgjElQFicxRL
+sgzPigRJ6EValgiO5gmCkylJlmW9yAOBEwWRBBIuYymIjYq6FHEVrnb2XwPRoiUL
+ubPaLA6LaMlEQZPDYTWovhw5VlWcDQXjPxijoJglNFmU4II2u2IxYwYCKUWHonIJ
+PcEwJM9TRCQGj1oVGzQqqoJmGQ5HSy0DXQgJaUaQaAkAQmBYBhfQiQeQJXiK16MZ
+6nGGYHCSQm2TMs5SgOVomQaCoGdkCuF5TG3siNmC2CTyCdIQE83ODBxOG8Tyrnck
+e3t4+nk84+Olfg4Pv7VB/36Z3LrA5ZDU5MAd4FDtmk+jmNPjOS/sz9b1uAxnzO/r
+bia+4fVLy9BINzGwuGnXie81I7avH3s+f35tdYTvherFwpbYyZndhxJe6nX25rkH
+t0xubas9UKpx+CYMTR336wvqMnUxl8eKrPm/XZ2eL/zctO0Y0+6qbHI1ls3PD70G
+Ftg/kiYiOxPvl2wfv1da33/l3YaYhjPdOP4t/3vVV+4wyXTU6b1S299Z17rBUOKt
+/zDl2Nu66cGOqCSqrNh7k6ZHt16bvuf8O16zu/oCuPhZp1kXvrO5PD/EWLGyT4x3
+PPqkoD6lYGnzpdK3cl+fYbVxGWNz56ZnNMa67f6LSSd1qXPpbFzI8E/RDZXbYOfG
+uajAv+4WBMeG3r3Hpha2Dbs1vqFD+0KevLqz93JM2dnOX6+tfzblRRBz/6OnRm14
+yg/XikcfTowmv3xux63lJyfz/cvahS3gTvteMBEStDxcPDGy57NBzTgoXyj8Mb02
+aLIKLCX8Cdzds0Wv3PjyTay5/70jiVL8o+GBId/GgNiS+sOPH7TGHlgaiFo4VXFx
+4efKgcKpqyMBWeXlEXNTRbe4oODbNT4XNvR3PTi8FHeplBvw+bi5ZqGrs+DGcoW9
+iAqPGA3zbzpexX9n0AY35hFjp+5ot3a0Fc98Uf30xO4m2HrRFbpuc0vf2MONKy3G
+MO3+2wHtPVyGPWrCBP4GIbi7cA==
+=kSuq
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brianwillis
+
+==================================================================
+
