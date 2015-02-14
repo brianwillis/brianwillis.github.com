@@ -1,5 +1,5 @@
 markdown: kramdown
-highlighter: null
+highlighter: pygments
 width: 700
 url: http://brianwillis.com
 include: ['.well-known']
