@@ -19,7 +19,7 @@ h1 {
     width: 345px;
     font-family: Museo-slab, Helvetica, Verdana, Arial, Sans-Serif;
     font-weight: 300;
-    font-size: 3.75em;
+    font-size: 3.25em;
     color: #CCCCCC;
     margin-top: 0;
     margin-bottom: 0;
@@ -27,7 +27,7 @@ h1 {
 
 nav {
     position: absolute;
-    bottom: 11px;
+    bottom: 8px;
     right: 0px;
     width: 345px;
 }
@@ -49,31 +49,6 @@ nav li {
 
 nav li + li {
     padding-left: 10px;
-}
-
-#aboutBox {
-    margin: 0px 0px 0px 0px;
-    width: 100%;
-    background-image: url('/images/squairy_light.png');
-    background-size: 200px 200px;
-    overflow: hidden;
-    display: none;
-}
-
-#aboutText {
-    margin: 20px auto 20px auto;
-    width: 700px;
-    background-color: inherit;
-}
-
-#aboutText p {
-    background-color: inherit;
-    color: #1C1C1C;
-}
-
-#aboutText a {
-    color: #1C1C1C;
-    border-bottom: 1px dotted #1C1C1C;
 }
 
 article {
@@ -102,7 +77,6 @@ time, .time {
     font-weight: 300;
     font-size: 1rem;
     color: #999999;
-    margin-top: 10px;
     margin-bottom: 0px;
 }
 
@@ -124,8 +98,6 @@ time {
 a {
     color: #CCCCCC;
     text-decoration: none;
-    transition: color 0.25s ease-in;
-    -webkit-transition: color 0.25s ease-in;
 }
 
 a:hover {
@@ -207,17 +179,6 @@ footer{
         width: 100%;
         text-align: center;
     }
-        
-    #aboutBox {
-        width: auto;
-    }
-
-    #aboutText {
-        width: auto;
-        margin-left: 8px;
-        margin-right: 8px;
-    }
-    
     article {
         width: auto;
         margin-left: 8px;
@@ -230,7 +191,6 @@ footer{
     
     h1 {
         width: 100%;
-        font-size: 3.25em;
         text-align: center;
     }
     
@@ -239,22 +199,10 @@ footer{
     }
     
     h2 {
-        font-size: 2em;
         text-align: center;
     }
     
     time {
         text-align: center;
-    }
-}
-
-/*Swap out the aboutBox background for high-res artwork on retina displays*/
-@media
-only screen and (-webkit-min-device-pixel-ratio: 1.5), 
-only screen and (-o-min-device-pixel-ratio: 3/2),
-only screen and (-moz-min-device-pixel-ratio: 1.5),
-only screen and (min-device-pixel-ratio: 1.5) {
-    #aboutBox {
-        background-image: url('/images/squairy_light@2X.png');
     }
 }

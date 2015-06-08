@@ -38,46 +38,15 @@
         <h1><a href="/">Brian Willis</a></h1>
         <nav>
             <ul>
-                <li><a id="aboutLink" href="/about.html" title="About me and the site">About</a></li>
+                <li><a href="/about.html" title="About me and the site">About</a></li>
                 <li><a href="/archive.html" title="A list of older posts">Archive</a></li>
                 <li><a href="http://feeds.feedburner.com/brianwillis" title="Subscribe to the feed">Subscribe</a></li>
             </ul>
         </nav>
     </header>
-    <div id="aboutBox">
-        <div id="aboutText">
-            {{ site.aboutText }}
-        </div>
-    </div>
 {{ content }}
     <footer>
         <p id="copyright">Copyright &copy; 2011 - {{ site.time | date: '%Y' }} Brian Willis.</p>
     </footer>
-    
-    <!-- JQuery -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-    
-    <!-- Slide open animation for the About link -->
-    <script>
-        $(document).ready(function() {
-            // We don't use the aboutBox with browsers that have JavaScript turned off.
-            $("#aboutLink").prop("href", "#");
-            
-            // Firefox won't cache image assets that are hidden until they are displayed.
-            // Here we're forcing the browser to cache the images in advance so that everything looks right.
-            if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
-                var aboutBoxBackground = new Image();
-                if (window.devicePixelRatio > 1) {
-                    aboutBoxBackground.src = "/images/squairy_light@2X.png";
-                } else {
-                    aboutBoxBackground.src = "/images/squairy_light.png";
-                }
-            }
-        });
-
-        $("#aboutLink").click(function() {
-            $("#aboutBox").slideToggle();
-        });
-    </script>
 </body>
 </html>
