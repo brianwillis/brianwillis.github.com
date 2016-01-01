@@ -39,7 +39,7 @@ Back in the dim dark ages before the enlightenment, [Joel Spolsky told us all to
 
 The thing is though, the software we use hasn't really caught up. Take a look at this:
 
-<img src="/images/2015-06-27-visual-studio-screenshot.png" alt="Screenshot of Visual Studio displaying Hello World in C#." title="Screenshot of Visual Studio displaying Hello World in C#." />
+<img src="/images/2015-06-27-visual-studio-screenshot.png" alt="Visual Studio displaying Hello World in C#." title="Screenshot of Visual Studio displaying Hello World in C#." />
 
 That's Hello World in C#, on a (tiny by today's standards) 1280×1024 display. Notice the insane amount of white space? We should be doing something better with that. 
 
