@@ -165,7 +165,7 @@ pre {
     overflow: auto;
 }
 
-code, blockquote {
+code {
     background-color: #303030;
     font-family: "Courier New", Sans-Serif;
     font-weight: 500;
@@ -175,11 +175,12 @@ code, blockquote {
 }
 
 blockquote {
+    color: #AAAAAA;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 20px;
     border-width: 0px 0px 0px 2px;
     border-style: solid;
-    border-color: #DDDDDD;
+    border-color: #AAAAAA;
 }
 
 footer{
