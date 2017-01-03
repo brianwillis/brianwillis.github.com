@@ -11,7 +11,7 @@ I'm calling it now: the digital crown is coming to the iPhone. It's such a natur
 
 In other news: Yahoo goes out of business; Google's next Pixel phone becomes a meaningful threat to the iPhone; Apple demonstrates that they still care about the Mac by releasing exemplary Kaby Lake desktops; Microsoft flails in all directions, doing a better job of pleasing developers than paying customers; and you still won't be able to edit a Tweet.
 
-It's traditional for me to wrap this up by predicting that Half Life 3 will come out this year. While I may have started this post calling these "uncertain times", now that we're ten years following the previous chapter's release, I think we can say with certainty that the Half Life franchise is well and truly dead.
+It's traditional for me to wrap this up by predicting that Half Life 3 will come out this year. While I may have started this post calling these "uncertain times", now that we're ten years following the previous chapter's release I think we can say with certainty that the Half Life franchise is well and truly dead.
 
 [1]: https://mastodon.social
 [2]: https://app.net
