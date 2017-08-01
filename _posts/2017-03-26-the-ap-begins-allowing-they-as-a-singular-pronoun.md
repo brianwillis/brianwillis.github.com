@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The AP Begins Allowing "They" as a Singular Pronoun
+title: The AP Begins Allowing “They” as a Singular Pronoun
 ---
 
 Lauren Easton, Director of Media Relations for the Associated Press, [quoting the next edition of the AP Stylebook on their blog][1]:
