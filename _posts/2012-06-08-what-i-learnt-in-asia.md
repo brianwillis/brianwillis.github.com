@@ -29,7 +29,7 @@ Italian food seems to have become the world's de facto comfort food. Pizza, ice 
 ### Free wifi is abundant, though sometimes slow. ###
 If life were like this back home I'd be a happy man. I sincerely hope that the days of hotels in the developed world charging $30 a night for wifi are coming to an end. I paid less than that for my entire room in most places, and wifi was always included free. The same goes for cafes and restaurants - it's an expectation that they'll have internet access.
 
-<img src="/images/2012-06-08-dot-mac.jpg" srset="/images/2012-06-08-dot-mac@2x.jpg 2x" alt="Retail boxes for .mac subscriptions." title="Retail boxes for .mac subscriptions."/>
+<img src="/images/2012-06-08-dot-mac.jpg" srcset="/images/2012-06-08-dot-mac@2x.jpg 2x" alt="Retail boxes for .mac subscriptions." title="Retail boxes for .mac subscriptions."/>
 
 You can still buy a [.mac subscription][1] in Bangkok (though why you'd want to is beyond me).
 
