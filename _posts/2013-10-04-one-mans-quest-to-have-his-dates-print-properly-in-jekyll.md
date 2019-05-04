@@ -55,4 +55,4 @@ It does however, have the benefit of actually working.
 So if you want pretty dates in your Jekyll blog, copy and paste that into the appropriate place in your templates and you'll be good to go.
 
 [1]: http://jekyllrb.com
-[2]: http://anatol.penibelst.de/
+[2]: https://bro.doktorbro.net/
