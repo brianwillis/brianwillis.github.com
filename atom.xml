@@ -15,7 +15,7 @@
 
     <entry>
         <title>{{ post.title }}</title>
-        <link href="http://brianwillis.com{{ post.url }}"/>
+        <link href="{% if post.link %}{{ post.link }}{% else %}http://brianwillis.com{{ post.url }}{% endif %}"/>
         <updated>{{ post.date | date_to_xmlschema }}</updated>
         <id>http://brianwillis.com{{ post.id }}</id>
         <content type="html">{{ post.content | xml_escape }}</content>

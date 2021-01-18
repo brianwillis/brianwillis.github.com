@@ -4,7 +4,7 @@ title: Brian Willis
 ---
     {% for post in site.posts limit: 5 %}
     <article itemscope itemtype="http://schema.org/BlogPosting">
-        <h2 itemprop="name"><a href="{{ post.url }}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
+        <h2 itemprop="name"><a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}" title="{{ post.title | xml_escape }}">{{ post.title }}</a></h2>
         <meta itemprop="wordCount" content="{{ post.content | number_of_words }}"/>
         <time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%d' }}">
         {% assign day = post.date | date: '%d' %}

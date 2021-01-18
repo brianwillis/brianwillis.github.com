@@ -1,0 +1,21 @@
+---
+layout: default
+---
+        <article itemscope itemtype="http://schema.org/BlogPosting">
+            <h2 itemprop="name"><a href="{{ page.link }}" title="{{ page.title | xml_escape }}">{{ page.title }}</a></h2>
+            <meta itemprop="wordCount" content="{{ page.content | number_of_words }}"/>
+            <time itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">
+            {% assign day = page.date | date: '%d' %}
+            {% case day %}
+                {% when '01', '21', '31' %}
+                    {% assign suffix = 'st' %}
+                {% when '02', '22' %}
+                    {% assign suffix = 'nd' %}
+                {% when '03', '23' %}
+                    {% assign suffix = 'rd' %}
+                {% else %}
+                    {% assign suffix = 'th' %}
+            {% endcase %}
+            {{ page.date | date: '%e' }}{{ suffix }}{{ page.date | date: ' %B %Y' }}
+            </time><div itemprop="articleBody">{{ content }}</div>
+        </article>
