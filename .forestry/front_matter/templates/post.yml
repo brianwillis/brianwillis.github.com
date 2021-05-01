@@ -10,3 +10,5 @@ fields:
 - type: text
   name: title
   label: title
+pages:
+- _posts/the-university-of-minnesota-got-themselves-banned-from-contributing-to-the-linux-kernel.md
