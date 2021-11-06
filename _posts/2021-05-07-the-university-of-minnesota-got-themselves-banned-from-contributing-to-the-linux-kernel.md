@@ -1,9 +1,8 @@
 ---
 layout: post
-title: The University of Minnesota Got Themselves Banned From Contributing to the
-  Linux Kernel
-
+title: The University of Minnesota Got Themselves Banned From Contributing to the Linux Kernel
 ---
+
 The short version of this story is that two researchers at the University of Minnesota thought it would be a fun idea to contribute "hypocrite commits" (i.e. bug fixes that deliberately include security holes) to the Linux kernel to see if the kernel maintainers would spot what they had done and reject the commits. They did this without the consent of the university's Institutional Review Board (which they have since gone on to obtain retroatively), and without permission from anyone on the kernel team.
 
 Needless to say, the kernel maintaners didn't appreciate being treated like lab rats, and responded by banning the entire university from making contributions to the kernel, and&mdash;because why just burn the crops when you can salt the earth too&mdash;they then began the process of reverting all previous commits made by anyone with an @umn.edu email address.
