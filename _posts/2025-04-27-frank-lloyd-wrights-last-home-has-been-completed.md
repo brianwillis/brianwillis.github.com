@@ -1,6 +1,6 @@
 ---
 layout: link
-title: Frank Lloyd Wright's Last Home Has Been Completed
+title: Frank Lloyd Wright’s Last Home Has Been Completed
 link: https://www.dezeen.com/2025/03/20/final-usonian-home-riverrock-frank-lloyd-wright-ohio-completed/
 ---
 
