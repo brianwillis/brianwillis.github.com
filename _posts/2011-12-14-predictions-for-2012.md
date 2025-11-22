@@ -7,7 +7,7 @@ Just for fun, here's some baseless speculation about the upcoming year.
 
 Research in Motion dies with a whimper. They get bought out by another company who wants their patent portfolio. I'm guessing Microsoft, but Google and Samsung are equally good candidates. In the press release announcing the purchase of RIM, Mike Lazaridis makes absolutely no sense.
 
-Under its new GPL-compatible license, WebOS gets a new hardware vendor. A real one, who is getting sick of the Android licensing and patent situation. Unlike HP, this company actually gives a damn about the future of the project, and devotes considerable resources to filing down its rough edges. Citing WebOS's respect for freedom, Stallman throws his weight behind the the project. This results in approximately zero people buying a WebOS tablet. Citing pleasant hardware and polished software, Walt Mossberg throws his weight behind the project. This results in a couple million people buying a WebOS tablet.
+Under its new GPL-compatible license, WebOS gets a new hardware vendor. A real one, who is getting sick of the Android licensing and patent situation. Unlike HP, this company actually gives a damn about the future of the project, and devotes considerable resources to filing down its rough edges. Citing WebOS's respect for freedom, Stallman throws his weight behind the project. This results in approximately zero people buying a WebOS tablet. Citing pleasant hardware and polished software, Walt Mossberg throws his weight behind the project. This results in a couple million people buying a WebOS tablet.
 
 Microsoft releases Windows 8. It's actually good. This surprises people. From day one, there's a gold rush in the Windows App store. Many independent developers become millionaires. Microsoft makes sure we all know about them. While Windows does well, Microsoft Office becomes increasingly irrelevant for home users whose use of cheap/free alternatives climbs. Corporate IT departments start taking Google Docs more seriously as we start to hear about household-name companies making the switch.
 
@@ -19,4 +19,4 @@ From any standpoint, Android on tablets does badly. The majority of consumers st
 
 Gabe Newell announces Half Life 3 at E3. It uses an all-new graphics engine developed by Valve to eventually replace Source. In the game, all our questions are answered, and fans get a satisfying ending to a franchise they've loved for more than a decade.
 
-OK, maybe that last paragraph is more wishfull thinking than a sensible prediciton, but a guy can dream.
+OK, maybe that last paragraph is more wishful thinking than a sensible prediction, but a guy can dream.

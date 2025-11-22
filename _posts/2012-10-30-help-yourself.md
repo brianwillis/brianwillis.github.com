@@ -27,7 +27,7 @@ Moving on&hellip;
 
 The post Jeff Atwood wrote that started this whole thing off, was about *59 Seconds* by Richard Wiseman. It's a remarkable and unique book that takes the evidence collected by psychology researchers, strips it from the dry academic tomes where it's being held hostage, and presents it to us mere mortals in a readable and accessible way.
 
-There's a lot of great stuff to learn about in psychology that'll change the way you perceive the world and perceive other people. What makes it interesting is that it's so counterintuitive. Psychology has a habit of pointing out the bugs in our mental software that most of us go though life completely oblivious to, and through having these problems pointed out to us we can learn to work around them.
+There's a lot of great stuff to learn about in psychology that'll change the way you perceive the world and perceive other people. What makes it interesting is that it's so counterintuitive. Psychology has a habit of pointing out the bugs in our mental software that most of us go through life completely oblivious to, and through having these problems pointed out to us we can learn to work around them.
 
 For example: Does talking about traumatic events from your past helps you recover from them? The evidence suggests it doesn't (writing about them is more effective, supposedly because it forces your brain to form a coherent narrative). Yet for many victims of trauma, talk therapy is sometimes the first thing they seek out.
 

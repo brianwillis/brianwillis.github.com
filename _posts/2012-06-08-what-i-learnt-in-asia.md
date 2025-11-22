@@ -37,6 +37,6 @@ You can still buy a [.mac subscription][1] in Bangkok (though why you'd want to 
 You should absolutely bring yours with you. I knew I'd find myself using the camera and currency converter often, but I've also been surprised by how much easier it is to read a paper map while using your phone's built in compass, and Google Maps with GPS (which is pretty easy to access with the aforementioned wifi) saved me from being seriously lost on more than one occasion.
 
 ### Do not get sunburnt. ###
-It hurts like a hell, and kills the fun for the time that you spend healing. While we're on the subject, do not get malaria. I don't have first hand experience with this particular joy of travel, but the doctor back home made it sound unpleasant enough.
+It hurts like hell, and kills the fun for the time that you spend healing. While we're on the subject, do not get malaria. I don't have first-hand experience with this particular joy of travel, but the doctor back home made it sound unpleasant enough.
 
 [1]: http://en.wikipedia.org/wiki/MobileMe#.Mac
